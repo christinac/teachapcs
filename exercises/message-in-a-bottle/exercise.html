@@ -1,0 +1,15 @@
+<p>Here's the basic outline of what we'll build:</p>
+
+<ol>
+<li>A <code>Bottle</code> <word data-key="class">class</word>, which'll be <word data-key="public">public</word>. 
+<ol>
+<li>A bottle has one attribute, a <code>String message</code>, that's added to the bottle when it's constructed.</li>
+<li>Bottles also have a <code>void scramble()</code> method that, when called, scrambles the letters in the message however you like. The scrambler should maintain all the letters in the message; they should be in a different order but all there. The scrambler should also work no matter what the bottle's message is – including when the bottle doesn't have a message.</li>
+</ol></li>
+<li>An <code>Ocean</code> class that has one attribute: a private <word>array</word> of Bottles.
+<ol>
+<li>Constructing a new Ocean should initilize the array.</li>
+<li>A <code>public Bottle retreiveOne()</code> method that pulls a bottle out of the ocean at random and prints its message.</li>
+<li>A <code>public void throw(Bottle b)</code> that adds the <code>Bottle b</code> to the array of bottles in the ocean.</li>
+</ol></li>
+</ol>

@@ -1,0 +1,1 @@
+Weather reports are helpful, but they're often pretty dull. Let's write a program that'll give us more interesting, friendly weather forecasts.

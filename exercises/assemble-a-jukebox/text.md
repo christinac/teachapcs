@@ -1,0 +1,3 @@
+Often, when programming, you'll use classes and code other people have written, which means you have to understand the pieces to get your program working. As you get better at understanding and assmebling code, you'll have to write less of it yourself, and you'll finish programs faster. It's pretty great.
+
+Incidentally, this is also why you might hear a programmer proudly declare themselves lazy; it's not that the programmer doesn't want to do his or her work (necessarily) but that he or she would prefer to write as little new code as possible. The same happens in the real world too: it's why, for example, grocery stores sell pie crusts and pancake mix!

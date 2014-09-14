@@ -1,0 +1,11 @@
+<p>"Chaining methods together" is a way of calling one after the other, without storing the intermediate results in variables. For example:</p>
+
+<pre class="prettyprint lang-java"><code>String name = "Jenny";
+String lowered = name.toLowerCase();
+lowered.substring(1,2);             // returns e
+</code></pre>
+
+<p>Which is the same as:</p>
+
+<pre class="prettyprint lang-java"><code>"Jenny".toLowerCase().substring(1,2);
+</code></pre>

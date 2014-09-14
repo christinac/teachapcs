@@ -1,0 +1,1 @@
+Edit the `encode` and `decode` functions to both encode (scramble) and decode (unscramble) the `message` that's passed using a shift size of `shift`.

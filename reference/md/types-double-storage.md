@@ -1,0 +1,8 @@
+# Storing doubles
+The <word data-key="double">double</word> type is named after "double precision floating-point numbers," which is a format describing how the computer should store numbers in its memory.
+
+When you assign a real number to a double variable, Java puts in <word data-key="byte">8 bytes'</word> worth of information. Everything else is dropped.
+
+Though that sounds a little crazy – Java *cuts off* the number? – it's really that we've programmed computers to act like we do. 
+
+What's `1/3` as a decimal? `0.3333333 ... ` right? Like humans, the computer ran out of space to track all those trailing 3s, so it cuts them off after 8 bytes, hoping that's precise enough for you.

@@ -1,0 +1,29 @@
+<h1>Re-assigning variables</h1>
+
+<p>If you're using the variable's value to set the new value, you can shorten the statement</p>
+
+<pre class="prettyprint lang-java"><code>int age = 17;
+age = age + 5;              // Age = 22
+</code></pre>
+
+<p>to</p>
+
+<pre class="prettyprint lang-java"><code>age += 5;                    // Now, age = 22
+</code></pre>
+
+<p><word data-key="+=">+=</word> is shorthand for "increment the old value of <code>age</code> by 5 and store the new value in <code>age</code>." </p>
+
+<p>Java has similar assignment operators for the other operations:</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr><td>Operator</td><td>Meaning</td><td>x before<br/><small>int x=5;</small></td><td>x after</td></tr>
+    </thead>
+    <tbody>
+        <tr><td>+=</td><td>adds and reassigns</td><td>x+= 5</td><td>10</td></tr>
+        <tr><td>-=</td><td>subtracts and reassigns</td><td>x-= 5</td><td>0</td></tr>
+        <tr><td>*=</td><td>multiplies and reassigns</td><td>x*= 5</td><td>25</td></tr>
+        <tr><td>/=</td><td>divides and reassigns</td><td>x/= 5</td><td>1</td></tr>
+        <tr><td>%=</td><td>divides and reassigns the remainder</td><td>x%= 5</td><td>0</td></tr>
+    </tbody>
+</table>

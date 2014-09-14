@@ -1,0 +1,25 @@
+If our <code>SeatingChart</code> looks like this:
+
+<table class='table'>
+    <tbody>
+        <tr><td>"Jessie"<br/><small>3</small></td><td>"Nitya"<br/><small>0</small></td></tr>
+        <tr><td>"Aidan"<br/><small>1</small></td><td>"Helena"<br/><small>2</small></td></tr>
+        <tr><td>"Jonathan"<br/><small>1</small></td><td>"Robert"<br/><small>7</small></td></tr>
+        <tr><td>"Hannah"<br/><small>6</small></td><td>"Serena"<br/><small>4</small></td></tr>
+        <tr><td>"Sierra"<br/><small>5</small></td><td>"Duncan"<br/><small>3</small></td></tr>
+        <tr><td><code>null</code></td><td><code>null</code></td></tr>
+    </tbody>
+</table>
+
+It should look like this after we've removed students with more than 4 absences:
+
+<table class='table'>
+    <tbody>
+        <tr><td>"Jessie"<br/><small>3</small></td><td>"Nitya"<br/><small>0</small></td></tr>
+        <tr><td>"Aidan"<br/><small>1</small></td><td>"Helena"<br/><small>2</small></td></tr>
+        <tr><td>"Jonathan"<br/><small>1</small></td><td><code>null</code></td></tr>
+        <tr><td><code>null</code></td><td>"Serena"<br/><small>4</small></td></tr>
+        <tr><td><code>null</code></td><td>"Duncan"<br/><small>3</small></td></tr>
+        <tr><td><code>null</code></td><td><code>null</code></td></tr>
+    </tbody>
+</table>

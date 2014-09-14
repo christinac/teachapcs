@@ -1,0 +1,5 @@
+[Bitcoin](http://en.wikipedia.org/wiki/Bitcoin) is a new cryptocurrency. It's based on <code>transactions</code>, which are records that record a payment between two parties, and a <code>ledger</code>, which is a list of every payment that's been made.
+
+Bitcoin is similar to cash in that once a bitcoin's been transfered, and the entry is made in the ledger, it can't be reversed or changed: the record will stay there.
+
+We actually know enough Java to implement bitcoin – so let's get to it.

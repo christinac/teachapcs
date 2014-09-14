@@ -1,0 +1,18 @@
+<h1>Setting values in an ArrayList</h1>
+
+<p>Setting a value in an ArrayList performs an overwrite: it combines an addition and removal.</p>
+
+<p>For example:</p>
+
+<pre class="prettyprint lang-java"><code>ArrayList&lt;String&gt; myList = new ArrayList&lt;String&gt;();
+myList.add("Hello");
+myList.add("Goodbye");
+myList.add("Hi");
+</code></pre>
+
+<p>produces an ArrayList called <code>myList</code> that looks like <code>["Hello", "Goodbye", "Hi"]</code>. Now, lets set <code>"Hiya"</code> in index 1:</p>
+
+<pre class="prettyprint lang-java"><code>myList.set(1, "Hiya");
+</code></pre>
+
+<p>Now, <code>myList</code> looks like <code>["Hello", "Hiya", "Hi"]</code> – the "Hiya" string was inserted into the second position (index 1), overwriting the "Goodbye" that was there.</p>

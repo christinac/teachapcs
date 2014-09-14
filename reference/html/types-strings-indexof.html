@@ -1,0 +1,27 @@
+<h1>Searching strings</h1>
+
+<p>Use Java's <code>indexOf(String)</code> or <code>indexOf(String, int)</code> function to find out whether one string contains another.</p>
+
+<p><strong>Called on</strong>: the "parent" string</p>
+
+<p><strong>Arguments</strong>: </p>
+
+<ul>
+<li>the String that might be inside the parent string</li>
+<li><em>(optional)</em> the index from which to start searching. Defaults to 0.</li>
+</ul>
+
+<p><strong>Returns</strong>: the index of the inner string's first character in the parent string. <code>-1</code> if the inner string wasn't found.</p>
+
+<h2>Example</h2>
+
+<pre class="prettyprint lang-java"><code>String str = "Hello world!";
+
+str.indexOf("World");
+// Return -1 – searching is case-sensitive
+str.indexOf("world");               // Returns 7
+str.indexOf("world", 10)            // Returns -1
+str.indexOf("hi");                  // Returns -1
+str.indexOf("Hello world!");        // Returns 0
+str.indexOf("!", 10)                // Returns 12
+</code></pre>

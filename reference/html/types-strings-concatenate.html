@@ -1,0 +1,18 @@
+<h1>Concatenating strings</h1>
+
+<p>Java uses <word data-key="+">+</word> to concatenate, or add, strings.</p>
+
+<pre class="prettyprint lang-java"><code>String favorite = "Art History"
+favorite = favorite + " is fun!";
+favorite                                // "Art History is fun!"
+</code></pre>
+
+<p>As strings are <word data-key="immutable">immutable</word>, concatenation re-assigns the variable's reference rather than changing its value.</p>
+
+<p>String concatenation works so long as all the item's you're assigning can be turned into strings:</p>
+
+<pre class="prettyprint lang-java"><code>String sentence = "My favorite number is ";
+int favNum = 3;
+String sentence = sentence + favNum;
+sentence;                                      // "My favorite number is 3"
+</code></pre>

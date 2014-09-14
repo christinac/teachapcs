@@ -1,0 +1,1 @@
+We've talked about how to get a [series of dice rolls](on-a-roll), but we didn't do much with those rolls. Until now!

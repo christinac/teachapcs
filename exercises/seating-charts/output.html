@@ -1,0 +1,22 @@
+For example, suppose `ArrayList<Student> roster` looked like:
+
+<table class='table'>
+    <tbody>
+        <tr><td><span style="color: #c0c0c0">[</span></td><td>"Jessie",</td><td>"Nitya",</td><td>"Aidan",</td><td>"Helena",</td><td>"Jonathan",</td><td></td></tr>
+        <tr><td></td><td>"Robert",</td><td>"Hannah",</td><td>"Serena",</td><td>"Sierra",</td><td>"Duncan"</td><td><span style="color: #c0c0c0">]</span></td></tr>
+    </tbody>
+</table>
+
+Then we'd want expect the `SeatingChart` created with `SeatingChart(roster, 2, 6)` to look like:
+
+<table class='table'>
+    <tbody>
+        <tr><td>"Jessie"</td><td>"Nitya"</td></tr>
+        <tr><td>"Aidan"</td><td>"Helena"</td></tr>
+        <tr><td>"Jonathan"</td><td>"Robert"</td></tr>
+        <tr><td>"Hannah"</td><td>"Serena"</td></tr>
+        <tr><td>"Sierra"</td><td>"Duncan"</td></tr>
+        <tr><td><code>null</code></td><td><code>null</code></td></tr>
+    </tbody>
+</table>
+

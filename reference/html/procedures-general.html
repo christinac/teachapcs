@@ -1,0 +1,56 @@
+<h1>General form of functions</h1>
+
+<p>The general form of any Java function looks like:</p>
+
+<pre class="prettyprint lang-java"><code>&lt;visibility&gt; &lt;returnType&gt; &lt;functionName&gt; (&lt;type parameterName&gt;, &lt;type parameterName&gt; ...){
+}
+</code></pre>
+
+<p>Here's a a more concrete example:</p>
+
+<pre class="prettyprint lang-java"><code>public int addTwo(int favNumber){
+    return favNumber + 2;
+}
+</code></pre>
+
+<p>Which could be used like this:</p>
+
+<pre class="prettyprint lang-java"><code>int myNum = 4;
+newNum = addTwo(myNum);         // Now, newNum = 6
+</code></pre>
+
+<p>Let's go through each piece of the general form:</p>
+
+<h2><code>&lt;visibility&gt;</code></h2>
+
+<p>Tells us which objects can call, or use, this method. It can be one of the following keywords:</p>
+
+<ul>
+<li><word data-key="public">public</word>: all objects can call this method</li>
+<li><word data-key="protected">protected</word>: all objects in this class or its subclasses can access this method</li>
+<li><word data-key="private">private</word>: only objects in this class can access the method </li>
+</ul>
+
+<p>Visibility is optional. If you don't specify it, Java defaults to <a href="http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html">packaged private</a>, meaning it's visible to all classes in the same <word data-key="package">package</word..</p>
+
+<h2><code>&lt;returnType&gt;</code></h2>
+
+<p>Tells us what <word data-key="type">type</word> this method will give back. It can be:</p>
+
+<ul>
+<li><word data-key="void">void</word></li>
+<li><word data-key="int">int</word></li>
+<li><word data-key="double">double</word></li>
+<li><word data-key="boolean">boolean</word></li>
+<li><word data-key="string">String</word></li>
+<li><word data-key="object">Object</word></li>
+<li>Or any custom object that you define</li>
+</ul>
+
+<h2><code>&lt;functionName&gt;</code></h2>
+
+<p>What we're calling this function. You can use whatever you like, though it's convention (and helpful to people who might read your code) to choose a verb that describes what the method does.</p>
+
+<h2><code>&lt;parameterList&gt;</code></h2>
+
+<p>A comma-separated list of the <word data-key="parameter">parameters</word> the method will use, e.g. <code>int favNum</code> or <code>boolean willRain</code>.</p>

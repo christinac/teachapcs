@@ -1,0 +1,3 @@
+If you run your program with points like `(0, 0)` and `(0, 4)`, your slope will be [undefined](https://www.khanacademy.org/math/algebra2/functions_and_graphs/undefined_indeterminate/v/why-dividing-by-zero-is-undefined). Java has a special keyword, <word data-key="nan">NaN</word>, for undefined values.
+
+If you like, you could change your script to check whether `double slope` is `NaN`; <word data-key="if-else">if</word> it is, <word data-key="print">print</word> a more-understandable error message (e.g. "sorry, that slope is undefined") so your users don't have to figure out what `NaN` means.

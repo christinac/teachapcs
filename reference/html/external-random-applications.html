@@ -1,0 +1,50 @@
+<h1>Using random numbers</h1>
+
+<p>Sometimes, we'll use the <code>nextInt(int n)</code> or <code>nextDouble()</code> on its own; other times, we'll need to translate what they give back to a range that's useful.</p>
+
+<p>For example, say you want to pick a random whole number between 0 and 100:</p>
+
+<pre class="prettyprint lang-java"><code>Random gen = new Random();
+int i = gen.nextInt(101);
+</code></pre>
+
+<p>Or you could do it this way:</p>
+
+<pre class="prettyprint lang-java"><code>Random gen = new Random();
+double d = gen.nextDouble() * 100;
+int i = (int) d;
+</code></pre>
+
+<p>Or, maybe you're building a dice game, and you need to make and roll a <a href="http://en.wikipedia.org/wiki/Dice">six-sided die</a> in your program:</p>
+
+<pre class="prettyprint lang-java"><code>Random gen = new Random();
+int die = gen.nextInt(6) + 1;
+</code></pre>
+
+<p>Perhaps you're making a program that randomly assigns students test scores (the horror!) between 60 and 100, inclusive of both:</p>
+
+<pre class="prettyprint lang-java"><code>Random gen = new Random();
+int i = 60 + gen.nextInt(41);
+</code></pre>
+
+<h2>Sequences of random numbers</h2>
+
+<p>If you need more than one random number, use a <word data-key="for">for loop</word>:</p>
+
+<pre class="prettyprint lang-java"><code>import java.util.Random
+
+...
+
+Random generator = new Random();
+for(int i = 0; i &lt; 100; i++){
+    int r = 60 + gen.nextInt(41);
+    System.out.println(r);
+}
+
+93
+73
+68
+85
+99
+...
+</code></pre>

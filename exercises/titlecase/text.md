@@ -1,0 +1,1 @@
+Java lets you convert the letters of a <word data-key="string">String</word> to <word data-key="str-uppercase">uppercase</word> and <word data-key="str-lowercase">lowercase</word> letters. Using those two methods, plus <word data-key="str-substring">substring</word> to slice and dice our strings, we can make all sorts of funny combinations.

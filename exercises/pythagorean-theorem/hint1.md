@@ -1,0 +1,3 @@
+The `calcHypotenuse` method takes two parameters, `double a` and `double b`. The variables could be called anything, but we decided to name them after inputs to the [Pythagorean theorem](http://en.wikipedia.org/wiki/Pythagorean_theorem).
+
+Inside the function's <word data-key="braces">curly braces</word>, you can use `a` and `b` to write an equation with variables, just like the Pythagorean theorem definition does: <code>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></code>.

@@ -1,0 +1,3 @@
+An old piece of math is the [Pythagorean Theorem](http://en.wikipedia.org/wiki/Pythagorean_theorem), which relates the lengths of the three sides of a right triangle: the sum of the two leg lengths, squared, is equivalent to the hypotenuse's length, squared: <code>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></code>.
+
+So if you know the length of each of the triangle's legs (`a`, `b`), the hypoteneus' length, `c`, is <code>square root[a<sup>2</sup> + b<sup>2</sup>]</code>

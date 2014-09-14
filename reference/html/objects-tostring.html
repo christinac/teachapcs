@@ -1,0 +1,20 @@
+<h1>toString()</h1>
+
+<p>Most objects in Java have a <code>toString()</code> method, which returns a <code>String</code>-ified version of the object. This is one of the methods that you will most frequently <word data-key="override">override</word>, since only you know how to display the objects you <word data-key="constructor">construct</word>.</p>
+
+<p>Some things in Java are <em>self evaluating</em>, which means they'll return themselves. You may've realized this initially, when we were evaluating primative data types - <word data-key="int">ints</word>, <word data-key="double">doubles</word>, and <word data-key="boolean">booleans</word>:</p>
+
+<pre class="prettyprint lang-java"><code>System.out.println(true);           // Prints 'true'
+System.out.println(42);             // Prints 42
+System.out.println(87.18);          // Prints 87.18
+</code></pre>
+
+<p><word data-key="string">Strings</word> are also self-evaluating: </p>
+
+<pre class="prettyprint lang-java"><code>String greeting = "Hello";
+System.out.println(greeting);           // Prints "Hello"
+String goodbye = new String("Goodbye");
+System.out.println(goodbye);            // Prints "Goodbye"
+</code></pre>
+
+<p>Arrays and other "container" objects are self-evaluating if they contain self-evaluating objects. For example, an array of <code>boolean</code>s is self evaluating, while an array of <code>Car</code>s is not.</p>

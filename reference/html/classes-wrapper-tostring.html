@@ -1,0 +1,17 @@
+<h1>Converting primitives to strings</h1>
+
+<p>Java's static <code>toString(int)</code> and <code>toString(double)</code> <word data-key="method">methods</word> turn an <word data-key="int">int</word>, <word data-key="double">double</word>, or <word data-key="boolean">boolean</word> into a <word data-key="string">String</word>.</p>
+
+<pre class="prettyprint lang-java"><code>int i = 104;
+String s = Integer.toString(i);
+// s now has the value "104"
+
+double d = 994.4;
+String t = Double.toString(d);
+// t now has the value "994.4"
+</code></pre>
+
+<p>More generally, it looks like:</p>
+
+<pre class="prettyprint lang-java"><code>String &lt;stringName&gt; = &lt;WrapperClassName&gt;.toString(&lt;primative&gt;);
+</code></pre>

@@ -1,0 +1,1 @@
+Thought we'd done enough scrambling [last time](scramble-words), eh? No luck: now we're going to scramble an entire list of words!

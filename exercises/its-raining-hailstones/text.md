@@ -1,0 +1,1 @@
+The <a href='http://www.math.hmc.edu/funfacts/ffiles/10008.5.shtml'>Hailstone sequence</a> is a famous sequence that mathematicians have observed but haven't quite yet explained. Can you write a script for it?

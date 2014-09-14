@@ -1,0 +1,14 @@
+<h1>Escaping strings</h1>
+
+<p>Since we denote strings with double quotes (<code>"</code> and <code>"</code>), we need to do something special to save a string <em>with</em> double quotes:</p>
+
+<pre class="prettyprint lang-java"><code>String question = "Which is your \"favorite\" number?";
+</code></pre>
+
+<p>A backslash escapes a <code>"</code> character. "Escaping" means treating the <code>"</code> as a normal character, rather than as part of the programming language.</p>
+
+<p>What if we want to include include a backslash in our string? By using another backslash to anti-escape the first! For example:</p>
+
+<pre class="prettyprint lang-java"><code>String sentence = "A backslash looks like this: \\.";
+sentence;                       // "A backslash looks like this: \."
+</code></pre>

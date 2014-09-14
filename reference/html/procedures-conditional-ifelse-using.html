@@ -1,0 +1,70 @@
+<h1>Using if-else statements</h1>
+
+<p>Here's an if-else statement used in a card-playing program:</p>
+
+<pre class="prettyprint lang-java"><code>import java.util.Random;
+...
+int HEARTS = 0, DIAMONDS = 1, SPADES = 2, CLUBS = 3;
+Random gen = new Random();
+int card = gen.nextInt(4);
+
+if(card == HEARTS || card = DIAMONDS){
+    System.out.println("You drew a red card!");
+}else if(card == SPADES){
+    System.out.println("You drew a spade!");
+}else if (card == CLUBS){
+    System.out.println("You drew a club!");
+}
+</code></pre>
+
+<p>Java only executes the code nested underneath the first true statement. In other words, if the <code>card</code> variable is equal to <code>0</code> or <code>1</code>, it'll print <em>only</em> the statement about drawing a red card; if it's equal to <code>2</code>, it'll print <em>only</em> the statement about spades, and if it's equal to <code>3</code>, you'll <em>only</em> see the statement about a club.</p>
+
+<h2>Nested if-else statements</h2>
+
+<p>You can nest if-else statements too, which can be helpful:</p>
+
+<pre class="prettyprint lang-java"><code>/*  We have two ints, grade (a student's most recent test score) and age (a student's age.)  */
+
+if (grade &gt;= 85){
+    if (age &gt;= 18){
+        System.out.println("My grade is high, and I'm an adult.");
+    }else{
+        System.out.println("My grade is high, but I'm not an adult.");
+    }
+}else{
+    System.out.println("My grade is not high.");
+}
+</code></pre>
+
+<h2>Longer statements</h2>
+
+<p>The statements inside the if blocks can be as many lines as you'd like:</p>
+
+<pre class="prettyprint lang-java"><code>if (&lt;expression&gt;){
+    &lt;statement&gt;;
+    &lt;anotherStatement&gt;;
+    &lt;aThirdStatement&gt;;
+}else{
+    &lt;statement&gt;;
+}
+</code></pre>
+
+<h2>Shorter statements</h2>
+
+<p>For short (one line) if-else statements, Java gives you a shorthand:</p>
+
+<pre class="prettyprint lang-java"><code>(condition) ? statementIfTrue : statementIfFalse;
+</code></pre>
+
+<p>The shorthand is useful when assigning variables:</p>
+
+<pre class="prettyprint lang-java"><code>int a = 5, int b = 4;
+int max = (a &gt; b) ? a : b;
+</code></pre>
+
+<p>or inside a function:</p>
+
+<pre class="prettyprint lang-java"><code>public int max(int a, int b){
+    return (a &gt; b) ? a : b;
+}
+</code></pre>

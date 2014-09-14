@@ -1,0 +1,1 @@
+A Caesar shift of 5 turns an A into a F and a Z into an E. So you'll need a way to convert between letters and numbers. In Java, you could think about doing this with a particular <word data-key="type">type</word> or with simple <word data-key="string">strings</word> and the [Character class](http://docs.oracle.com/javase/7/docs/api/java/lang/Character.html).

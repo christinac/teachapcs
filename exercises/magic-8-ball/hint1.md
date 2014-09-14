@@ -1,0 +1,1 @@
+Random numbers are so useful in programming that the people who wrote Java also wrote tools for randomness. The <word data-key="random">Random</word> class, which is added into our program on line 1, gives us an easy, reliable way to <word data-key="random-int">find random integers</word>.

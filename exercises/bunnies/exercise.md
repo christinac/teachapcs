@@ -1,0 +1,1 @@
+Complete the `bunniesIn(month)` <word data-key="function">function</word>. It should tell us how many pairs of bunnies you'll have in a given month.

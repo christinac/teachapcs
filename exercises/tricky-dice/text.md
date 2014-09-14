@@ -1,0 +1,1 @@
+The oldest <a href="http://en.wikipedia.org/wiki/Dice" target="_blank">dice</a> seem to have been used, 5000 years ago, to play backgammon in Iran. Those dice were made from animal's hooves; now, dice tend to made of plastic or code.

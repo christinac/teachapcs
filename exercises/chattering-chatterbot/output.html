@@ -1,0 +1,31 @@
+<p>The precise implementation is up to you, but as one example, running this script: 
+
+<pre><code>
+Chatterbot chatters = new Chatterbot();
+chatters.sayHello();
+String response = chatters.waitForResponse();
+while(response){
+	chatters.continueConversation();
+	if(response.equals("Goodbye!"){
+		chatters.sayGoodbye();
+		break;
+	}
+}
+</code></pre>
+
+should produce something like this, where the chatterbot is in black and the user is in <span style="color:blue;">blue</span>.</p>
+
+<pre><code>"Hi there!"
+<span style="color:blue;">"Hi!"</span>
+"Is that so?"
+<span style="color:blue;">"Er, I think so?"</span>
+"Really?"
+<span style="color:blue;">"Yes! I just said hello!"</span>
+"You wouldn't say?"
+<span style="color:blue;">"Hrmph."</span>
+"I had no idea."
+<span style="color:blue;">"Goodbye"</span>
+"Bye!"
+</code></pre>
+
+<p>(No need to follow this Chatterbot exactly; give yours its own speaking style!)</p>

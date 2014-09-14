@@ -1,0 +1,22 @@
+<h1>Removing from an ArrayList</h1>
+
+<p>To remove an item at a particular index in an arraylist, use the <code>Object remove(int index)</code> method.</p>
+
+<p>Let's say we set up a list that will look like <code>["Hello", "Goodbye"]</code>:</p>
+
+<pre class="prettyprint lang-java"><code>ArrayList&lt;String&gt; myList = new ArrayList&lt;String&gt;();
+myList.add("Hello");
+myList.add("Goodbye");
+</code></pre>
+
+<p>Now, let's remove the element at index 1: </p>
+
+<pre class="prettyprint lang-java"><code>myList.remove(1);       // Will return the String "Goodbye"
+</code></pre>
+
+<p><code>myList</code> will be only <code>["Hello"]</code>.</p>
+
+<p>If we wanted to save the String we removed, we could do that too:</p>
+
+<pre class="prettyprint lang-java"><code>String gone = myList.remove(1);         // Now, gone refers to "Goodbye"
+</code></pre>

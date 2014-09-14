@@ -1,0 +1,38 @@
+<h1>equals(Object)</h1>
+
+<p>Each <word data-key="object">object</word>, include those you create, has an <code>equals(Object)</code> method that's <word data-key="inherit">inherited</word> from the <code>Object</code> superclass. </p>
+
+<p>The default <code>equals(Object)</code> methods checks whether the two objects have the same address in memory. It doesn't care about any of the values the objects have, because the <code>Object</code> <word data-key="superclass">superclass</word> can't see those values.</p>
+
+<p>Here's an example, using a <code>Chatterbot</code> <word data-key="object">object</word> that (assume) we've defined elsewhere.</p>
+
+<pre class="prettyprint lang-java"><code>Chatterbot president = new Chatterbot("Barack");
+Chatterbot barack = president;
+
+president.equals(barack);
+true
+
+barack = new Chatterbot("Barack");
+
+president.equals(barack);
+false;
+</code></pre>
+
+<p>If we wanted two chatterbots to be the same if they had the same name, we'd have to override the <code>equals(Object)</code> <word data-key="method">method</word> in our <code>Chatterbot</code> <word data-key="class">class</word>:</p>
+
+<pre class="prettyprint lang-java"><code>public class Chatterbot{
+    // implementation of the Chatterbot
+
+    public boolean equals(Object obj){
+      Chatterbot second = (Chatterbot) obj;
+      return this.name == second.name;
+    }
+}
+</code></pre>
+
+<p>A few things worth pointing out:</p>
+
+<ol>
+<li>The method's signature is <code>equals(Object)</code>, not <code>equals(Chatterbot)</code> so we can override the <code>equals(Object)</code> method from the Object superclass. If we change the method signature to <code>equals(Chatterbot)</code>, we'll be <word data-key="overload">overloading</word>, not <word data-key="override">overriding</word>, the method.</li>
+<li>We're stuck with a parameter of type <code>Object</code>, but we know it'll always be a <code>Chatterbot</code> – so we <word data-key="cast">cast</word> <code>Object obj</code> to <code>Chatterbot</code>.</li>
+</ol>

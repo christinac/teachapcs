@@ -1,0 +1,26 @@
+<h1>Making arrays</h1>
+
+<p>The easiest way to make an array is by enclosing its values in squiggly brackets (<code>{</code> and <code>}</code>), separated by commas:</p>
+
+<pre class="prettyprint lang-java"><code>int a[] = {0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55};
+boolean b[] = {true, false, false};
+</code></pre>
+
+<p>Arrays can also be made by:</p>
+
+<ol>
+    <li>Slowly listing out all the variables, index by index:<br/>
+        <pre class="prettyprint lang-java"><code>int a[] = new int[10];
+        a[0] = 0;
+        a[1] = 1;
+        a[2] = 1;
+        ...
+        </code></pre>
+</li><li>
+Combining the squiggly-bracket shorthand and the <word data-key="new">new</word> syntax:<br/>
+        <pre class="prettyprint lang-java"><code>int a[] = new int[]{0, 1, 1, 2, 3, 5, 8};
+        </code></pre>
+    </li>
+</ol>
+
+<p>All three are equivalent ways of making an array.</p>

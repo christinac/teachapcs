@@ -1,0 +1,1 @@
+Now, once you're looking at two consecutive numbers in an <word data-key="array">array</word> in Java, what [tool](#toolbox) could you use to look at more than one pair of consecutive numbers?

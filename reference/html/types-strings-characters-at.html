@@ -1,0 +1,23 @@
+<h1>Character indices</h1>
+
+<p>Use Java's <code>charAt(int)</code> function to find the character at a specifix index.</p>
+
+<p><strong>Called on</strong>: a string</p>
+
+<p><strong>Arguments</strong>: the index at which you'd like the character</p>
+
+<p><strong>Returns</strong>: the character at the index passed as an argument</p>
+
+<h2>Example</h2>
+
+<pre class="prettyprint lang-java"><code>String book = "handbook";
+book.charAt(4);                     // 'b'
+book.charAt(0);                     // 'h'
+</code></pre>
+
+<p>If you pass index that's larger than the string is long, you'll get a <word data-key="StringIndexOutOfBoundsException">StringIndexOutOfBoundsException</word>:</p>
+
+<pre class="prettyprint lang-java"><code>String hello = "Hello!";
+hello.charAt(29);
+java.lang.StringIndexOutOfBoundsException: String index out of range: 29
+</code></pre>

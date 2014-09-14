@@ -1,0 +1,40 @@
+<h1>Variable scope</h1>
+
+<p>When we're writing functions, we can declare and use variables wherever we like. Consider this example and output:</p>
+
+<pre class="prettyprint lang-java"><code>int test = 10;
+
+public void mainTest(){
+    System.out.println("Main test: " + test);
+}
+
+public void localTest(){
+    int test = 20;
+    System.out.println("Local test: " + test);
+}
+
+public void paramTest(int test){
+    System.out.println("Param test: " + test);
+}
+
+public void paramTestFail(int test){
+    int test = 4;           // ERROR: duplicate local variable test
+    System.out.println("Param test: " + test);
+}
+
+mainTest();
+Main test: 10
+localTest();
+Local test: 20
+paramTest(30);
+Param test: 30
+</code></pre>
+
+<p>What's happening?</p>
+
+<ul>
+<li>Within the scope of the script we've written, <code>test</code> has a value of <code>10</code>, which was assigned at the top of the script.</li>
+<li>Within the function <code>localTest()</code>, <code>test</code> has a value of <code>20</code>, because the <code>int test = 20;</code> assignment supercedes the <code>int test = 10;</code> one performed outside the function.</li>
+<li>Within the function <code>paramTest</code>, the variable <code>test</code> refers to the function parameter, and it takes on whichever value it's passed. (In this case, it's <code>30</code>.)</li>
+<li>The last function, <code>paramTestFail(int)</code>, wouldn't compile. Instead, you'll see the error message "duplicate local variable test", which means the compiler's gotten confused by having two <code>int test</code>s. You'll have to rename one of the variables.</li>
+</ul>

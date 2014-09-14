@@ -1,0 +1,1 @@
+<word data-key="array">Arrays</word> indices start counting from 0, not 1, so an array of length 5 has indices `0, 1, 2, 3, 4`, an array of length 10 has indices `0, 1, 2, 3, 4, 5, 6, 7, 8, 9`.

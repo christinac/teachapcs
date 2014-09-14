@@ -1,0 +1,14 @@
+<p>When you're done, calling (for example):</p>
+
+<pre class="prettyprint lang-java"><code>    String secret = "the wizard quickly jinxed the gnomes before they vaporized";
+    int shift = 12;
+    String encoded = Cipher.encode(secret, shift);
+    System.out.println(encoded);
+    System.out.println(Cipher.decode(encoded, shift));
+</code></pre>
+
+<p>should generate:</p>
+
+<pre class="prettyprint lang-java"><code>ftq iulmdp cguowxk vuzjqp ftq szayqe nqradq ftqk hmbadulqp
+the wizard quickly jinxed the gnomes before they vaporized
+</code></pre>

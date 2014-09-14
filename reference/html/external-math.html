@@ -1,0 +1,108 @@
+<h1>Math class</h1>
+
+<p>Java's <code>Math</code> class contains data and procedures helpful when we perform mathematics. You can read all about the Math class in the <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html">official Java documentation</a>.</p>
+
+<h2>Functions</h2>
+
+<p>Here's a few functions built-in to the <code>Math</code> class that might be helpful:</p>
+
+<h3>Absolute value</h3>
+
+<p><code>Math.abs(int x)</code> and <code>Math.abs(double x)</code> returns the absolute value of x:</p>
+
+<pre class="prettyprint lang-java"><code>Math.abs(4);             // 4
+Math.abs(-98.88);        // 98.88
+</code></pre>
+
+<h3>Exponents</h3>
+
+<p><code>Math.pow(double b, double c)</code> raises b to the c power:</p>
+
+<pre class="prettyprint lang-java"><code>Math.pow(2, 4);         // 16.0
+Math.pow(4.4, 1.1);     // 5.102675423469089
+</code></pre>
+
+<h3>Square roots</h3>
+
+<p><code>Math.sqrt(double x)</code> returns the square root of x:</p>
+
+<pre class="prettyprint lang-java"><code>Math.sqrt(16);          // 4.0
+Math.sqrt(33.5);        // 5.787918451395113
+Math.sqrt(-25.0);       // NaN
+</code></pre>
+
+<p>If you take the square root of a negative number, Java returns <word data-key="nan">NaN</word>, shorthand for "not a number."</p>
+
+<h3>Rounding</h3>
+
+<p><code>Math.round(double x)</code> return the value of x, rounded to the nearest whole number.</p>
+
+<pre class="prettyprint lang-java"><code>Math.round(4.3);        // 4.0
+Math.round(-2.4);       // -2.0
+Math.round(8904.5);     // 8905.5
+</code></pre>
+
+<h3>Rounding up</h3>
+
+<p><code>Math.ceil(double x)</code> returns the next whole number that's larger than x:</p>
+
+<pre class="prettyprint lang-java"><code>Math.ceil(49.0);        // 49.0
+Math.ceil(4.29);        // 5.0
+Math.ceil(-85.9);       // -85.0
+</code></pre>
+
+<h3>Rounding down</h3>
+
+<p><code>Math.floor(double x)</code> returns the prior whole number that's smaller than x:</p>
+
+<pre class="prettyprint lang-java"><code>Math.floor(49.0);       // 49.0
+Math.floor(4.29);       // 4.0
+Math.floor(-85.9);      // -86.0
+</code></pre>
+
+<h3>Finding a smaller value</h3>
+
+<p>Both <code>Math.min(double a, double b)</code> and <code>Math.min(int a, int b)</code> return the smaller of a and b:</p>
+
+<pre class="prettyprint lang-java"><code>Math.min(4.3, 2.4);         // 2.4
+Math.min(-2.01,-5.4);       // -5.4
+Math.min(4, 2);             // 2
+Math.min(-2,-5);            // -5
+</code></pre>
+
+<h3>Finding a larger value</h3>
+
+<p>Both <code>Math.max(double a, double b)</code> and <code>Math.max(int a, int b)</code> return the smaller of a and b:</p>
+
+<pre class="prettyprint lang-java"><code>Math.max(4.3, 2.4);         // 4.3
+Math.max(-2.01,-5.4);       // -2.01
+Math.max(4, 2);             // 4
+Math.max(-2,-5);            // -2
+</code></pre>
+
+<h3>Random numbers</h3>
+
+<p><code>Math.random()</code> returns a random double between 0 (inclusive) and 1 (exclusive.) It's the same as <code>Random gen = new Random(); gen.nextDouble();</code> from the <word data-key="random">Random class</word>:</p>
+
+<pre class="prettyprint lang-java"><code>Math.random();      // 0.753596711450498
+Math.random();      // 0.35743909737853485
+Math.random();      // 0.1801937322144781
+</code></pre>
+
+<h2>Variables</h2>
+
+<p>Java's <code>Math</code> class also has a few constants that might be useful:</p>
+
+<h3>e</h3>
+
+<p><code>E</code> returns the value of <a href="http://en.wikipedia.org/wiki/E_(mathematical_constant">e</a>, the base of <a href="http://en.wikipedia.org/wiki/Natural_logarithm">natural logarithms</a>:</p>
+
+<pre class="prettyprint lang-java"><code>Math.E;             //  2.71828
+</code></pre>
+
+<h3>Pi</h3>
+
+<p><code>PI</code> returns the value of <a href="http://en.wikipedia.org/wiki/Pi">pi</a>:</p>
+
+<pre class="prettyprint lang-java"><code>Math.PI;            // 3.141592653589793
+</code></pre>

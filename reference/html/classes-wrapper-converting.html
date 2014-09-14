@@ -1,0 +1,38 @@
+<h1>Converting between wrapped types</h1>
+
+<p>Wrapped primitives can be converted to and from Strings, whereas "normal" primitives can't be. For example:</p>
+
+<pre class="prettyprint lang-java"><code>String s = "159";
+int i = Integer.parseInt(s);
+// Now, i has the value 159
+</code></pre>
+
+<p>A few things to notice:</p>
+
+<p><code>parseInt(String)</code> returns an <code>int</code>, not a wrapped <code>Integer</code>. If we wanted an <code>Integer</code>, we'd have to make it:</p>
+
+<pre class="prettyprint lang-java"><code>String s = "159";
+int i = Integer.parseInt(s);
+Integer j = new Integer(i);
+</code></pre>
+
+<p>or more succinctly: </p>
+
+<pre class="prettyprint lang-java"><code>Integer i = new Integer(Integer.parseInt(s));
+</code></pre>
+
+<p>The <code>String</code> class has another method, <code>valueOf(string)</code>, that returns an <code>Integer</code>:</p>
+
+<pre class="prettyprint lang-java"><code>String s = "4884";
+Integer i = Integer.valueOf(s);
+// i has the value 4884
+</code></pre>
+
+<p>If we give <code>valueOf(string)</code> a bad <word data-key="string">String</word> we'll get a <word data-key="runtime-exception">runtime exception</word>:</p>
+
+<pre class="prettyprint lang-java"><code>String willBreak = "I'm going to break!";
+int i = Integer.parseInt(willBreak);
+java.lang.NumberFormatException: for input string s
+</code></pre>
+
+<p>In practice, there's no difference between <code>valueOf(string)</code> and <code>new Integer(Integer.parseInt(string))</code>; use whichever makes your code easier to read.</p>

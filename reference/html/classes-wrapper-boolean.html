@@ -1,0 +1,34 @@
+<h1>Boolean</h1>
+
+<p>The <code>Boolean</code> class is a <word data-key="wrapper">wraps</word> <word data-key="boolean">boolean</word> primitives into <code>Boolean</code> <word data-key="object">objects</word>.</p>
+
+<h2>Creating a Boolean object</h2>
+
+<p>The <word data-key="new">constructor</word> for Boolean objects takes one of four values: </p>
+
+<p>A <code>true</code> or <code>false</code> primitive:</p>
+
+<pre class="prettyprint lang-java"><code>Boolean b = new Boolean(false);
+b;                                  // Returns false
+</code></pre>
+
+<p>A variable of a boolean primitive:</p>
+
+<pre class="prettyprint lang-java"><code>Boolean b = true;
+Boolean c = new Boolean(b);
+b;                                  // Returns true
+</code></pre>
+
+<p>Another Boolean object:</p>
+
+<pre class="prettyprint lang-java"><code>Boolean b = new Boolean(false);
+b;                                  // Returns false
+Boolean c = new Boolean(b);
+c;                                  // Returns false
+</code></pre>
+
+<p>Simple assignment:</p>
+
+<pre class="prettyprint lang-java"><code>Boolean b = true;                 // Returns true; b is a Boolean object
+boolean c = true;                 // Returns true; c is a boolean primitive
+</code></pre>

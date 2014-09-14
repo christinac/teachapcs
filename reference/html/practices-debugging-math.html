@@ -1,0 +1,28 @@
+<h1>Debugging math</h1>
+
+<p>If <code>NaN</code> pops up unexpectedly, there's probably an error in your math. One way to debug math errors is by evaluating expressions piece by piece. For example:</p>
+
+<pre class="prettyprint lang-java"><code>int students = 10 * 10;
+int tables = 4 / 4 - 1;
+int studentsPerTable = students / tables;
+System.out.println("studentsPerTable is " + studentsPerTable);  // prints NaN
+</code></pre>
+
+<p>Let's go through all the variables:</p>
+
+<pre class="prettyprint lang-java"><code>System.out.println("students is " + students);
+"students is 100"
+
+System.out.println("tables is " + tables);
+"tables is 0"       // Ah ha!
+</code></pre>
+
+<p>If we look at the line that declared the <code>tables</code> variable again:</p>
+
+<pre class="prettyprint lang-java"><code>int tables = 4 / 4 - 1;
+</code></pre>
+
+<p>Oops – we missed a set of parentheses, and it should've been: </p>
+
+<pre class="prettyprint lang-java"><code>int tables = 4 / (4 - 1);
+</code></pre>

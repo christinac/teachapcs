@@ -1,0 +1,11 @@
+<h1>Getting from an ArrayList</h1>
+
+<p>To retrieve an item from a particular index of an arraylist, use the <code>Object get(int index)</code> method:</p>
+
+<pre class="prettyprint lang-java"><code>ArrayList&lt;String&gt; myList = new ArrayList&lt;String&gt;();
+myList.add("Hello");
+myList.add("Goodbye");
+myList.get(1);      // will return the String "Goodbye"
+</code></pre>
+
+<p>From the code above, the ArrayList stored in the <code>myList</code> variable looks like <code>["Hello", "Goodbye"]</code>. So <code>myList.get(1)</code> will return the String at index 1 (in this case <code>"Goodbye"</code>) without changing the list itself.</p>

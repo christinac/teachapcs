@@ -1,0 +1,156 @@
+<h1>Truth tables</h1>
+
+<p><a href="http://en.wikipedia.org/wiki/Truth_tables">Truth tables</a> are tools to generalize a logic expression, even as its arguments change. </p>
+
+<p>Here's the process behind making a truth table for the <word data-key="&amp;&amp;">&amp;&amp;</word> operator:</p>
+
+<pre class="prettyprint lang-java"><code>boolean a = true;
+boolean b = true;
+a &amp;&amp; b;                     // true
+
+a = true;
+b = false;
+a &amp;&amp; b;                     // false
+
+a = false;
+b = false;
+a &amp;&amp; b;                     // false
+
+a = false, b = true;
+a &amp;&amp; b;                     // false
+</code></pre>
+
+<p>If we put that information into a table, we get a truth table:</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>(a && b)</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>true</td>
+            <td>true</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>true</td>
+            <td>false</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>true</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>false</td>
+            <td>false</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>From the truth table, it's easier to see that <code>(a &amp;&amp; b)</code> is true only if both <code>a</code> <em>and</em> <code>b</code> are <code>true</code>. </p>
+
+<p>Here's the truth table for <code>(a || b)</code>:</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>(a || b)</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>true</td>
+            <td>true</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>true</td>
+            <td>false</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>true</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>false</td>
+            <td>false</td>
+        </tr>
+    </tbody>
+</table>
+
+<p><code>(a || b)</code> is true more often than <code>(a &amp;&amp; b)</code>, as the <word>||</word> operator is more forgiving; only <em>one</em> of <code>a</code> and <code>b</code> are <code>true</code> in order for the entire expression to be <code>true</code>.</p>
+
+<p>Every expression has a truth table. For example, here's one for <code>(!a || b &amp;&amp; c)</code>:</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>(!a || b && c)</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>true</td>
+            <td>true</td>
+            <td>true</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>true</td>
+            <td>true</td>
+            <td>false</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>true</td>
+            <td>false</td>
+            <td>true</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>true</td>
+            <td>false</td>
+            <td>false</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>true</td>
+            <td>true</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>true</td>
+            <td>false</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>false</td>
+            <td>true</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>false</td>
+            <td>false</td>
+            <td>false</td>
+        </tr>
+    </tbody>
+</table>

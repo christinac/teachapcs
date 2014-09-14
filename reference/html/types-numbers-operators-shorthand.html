@@ -1,0 +1,49 @@
+<h1>Operator shorthand</h1>
+
+<p>Increment and decrement operators are two special assignment operators that are used to add and subtract 1 from a number. (Why do we care so much about adding and subtracting by 1? They're often used in loops, which we'll look at soon.)</p>
+
+<p>First, increment operators. The following four statements are equivalent:</p>
+
+<p>Increment and decrement operators – assignment shortcuts
+    n = n + 1;
+    n += 1;
+    ++n;
+    n++;</p>
+
+<p>The <word data-key="++">++</word> operator, like the others we've seen, returns a value: the value of <code>n</code>, incremented by 1. Take a look at this example:</p>
+
+<pre class="prettyprint lang-java"><code>int n = 4;
+n
+4
+n+= 2;
+n
+6
+n++;
+n
+7
+</code></pre>
+
+<p>Similarly, the following four statements are equivalent:
+    n = n - 1;
+    n -= 1;
+    --n;
+    n--;</p>
+
+<p>Putting the <code>++</code> in front (e.g. <code>++n</code>) is called prefix notation, and putting it at the back (e.g. <code>n++</code>) is called postfix notation. <code>++</code> is an operator just like <code>+</code> and it changes the variable's value wherever it's placed. Try this:</p>
+
+<pre class="prettyprint lang-java"><code>int x = 1;
+int y = x++;
+y;
+1
+x;
+2
+
+int x = 1;
+int y = ++x;
+y;
+2
+x;
+2
+</code></pre>
+
+<p>At the end of each block, <code>x</code> is equal to <code>2</code>, but y is equal to either <code>1</code> or <code>2</code> depending on where the <code>++</code> operator was placed. In the first example, the second line says "give y the value of x, and then increment x" while the second line of the second example says "increment x and give y that new value."</p>

@@ -1,0 +1,46 @@
+<h1>Boolean operator precedence</h1>
+
+<p>Boolean operators, like mathematical ones, have an order of operations. When you're solving a boolean expression, follow this ordering:</p>
+
+<ol>
+<li><code>!</code></li>
+<li><code>(</code> and <code>)</code></li>
+<li><code>==</code> and <code>!=</code></li>
+<li><code>&amp;&amp;</code></li>
+<li><code>||</code></li>
+<li>The <word>relational operators</word> and <word>arithmetic operators</word>.</li>
+</ol>
+
+<p>Let's test that with a few more boolean expressions:</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>Original</td>
+            <td>Simplified</td>
+            <td>Answer</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>!true || false</td>
+            <td>false || false</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>true || false && true</td>
+            <td>true || false</td>
+            <td>true</td>
+        </tr>
+        <tr>
+            <td>true == false && false</td>
+            <td>true == false</td>
+            <td>false</td>
+        </tr>
+        <tr>
+            <td>true != false || true</td>
+            <td>true != true</td>
+            <td>false</td>
+        </tr>
+    </tbody>
+</table>

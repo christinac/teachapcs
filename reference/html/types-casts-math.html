@@ -1,0 +1,37 @@
+<h1>Casts and division</h1>
+
+<p><word data-key="casting">Casting</word> becomes more important when we're doing math problems because Java's got two ways of doing division:</p>
+
+<ol>
+<li>Floating point division</li>
+<li>Integer division</li>
+</ol>
+
+<h2>Floating point division</h2>
+
+<p>Floating point division is the division you know:</p>
+
+<pre class="prettyprint lang-java"><code>3.0/4           // = 0.75
+5/4.0           // = 1.25
+1.0/4           // = 0.25
+</code></pre>
+
+<h2>Integer division</h2>
+
+<p>Integer division is a special kind of division that computers can do. In integer division, all answers are integers (whole numbers), and any decimals are dropped.</p>
+
+<pre class="prettyprint lang-java"><code>3/4           // = 0
+5/4           // = 1
+1/4           // = 0
+</code></pre>
+
+<h2>Using each</h2>
+
+<p>Integer division happens when all the numbers being divided are integers. Floating point division's used when at least one number's a double.</p>
+
+<p>You can also force floating point division with casts. Just keep in mind the order of operations!</p>
+
+<pre class="prettyprint lang-java"><code>(double) 3/4       // = 0.75
+(double) 5/4       // = 1
+(double) (1/4)     // = 0.0 because integer division came before the cast
+</code></pre>

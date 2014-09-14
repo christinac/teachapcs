@@ -1,0 +1,37 @@
+<h1>Using for loops</h1>
+
+<p>Here's a procedure that prints the set of odd integers between 1 and 9:</p>
+
+<pre class="prettyprint lang-java"><code>for(int i = 1; i&lt;10; i+=2){
+    System.out.println(i);
+}
+</code></pre>
+
+<p>Here's another procedure that also prints the set of odd integers between 0 and 9:</p>
+
+<pre class="prettyprint lang-java"><code>for(int i = 1; i&lt;10; i++){
+    if (i % 2 == 1){
+        System.out.println(i);
+    }
+}
+</code></pre>
+
+<p>Here's a procedure that sums the numbers between 0 and 100:</p>
+
+<pre class="prettyprint lang-java"><code>int sum = 0;
+for(int i = 0; i &lt; 100; i++){
+    sum+=i;
+}
+sum;
+4950
+</code></pre>
+
+<p>Here's another that calculates the factorial of 10, when 10! = 10 * 9 * 8 * ... * 1</p>
+
+<pre class="prettyprint lang-java"><code>int factorial = 1;
+for(int i = 10; i &gt; 0; i--){
+    factorial *= i;
+}
+factorial;
+3628800
+</code></pre>

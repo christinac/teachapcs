@@ -1,0 +1,2 @@
+1. Write a <word data-key="constructor">constructor</word> for the `SeatingChart` class. The constructor should initialize <word data-key="instance-var">instance variable</word> `seats` to a 2-dimensional array with the number of rows and columns given in the parameters.
+2. Then, copy students from `studentList` to `seats`, starting at `seats[0][0]` and looping through its rows and columns. Empty seats should be <word data-key="null">null</word>.

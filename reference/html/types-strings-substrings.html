@@ -1,0 +1,39 @@
+<h1>Making strings from strings</h1>
+
+<p>When a string is made from another string, it is called a substring.</p>
+
+<p>Java provides two methods to make substrings: <code>substring(int beginIndex)</code> and <code>substring(int beginIndex, int endIndex)</code>. </p>
+
+<p><strong>Called on</strong>: the "parent" string</p>
+
+<p><strong>Arguments</strong>: </p>
+
+<ul>
+<li>the index at which to begin searching</li>
+<li><em>(optional)</em> the index at which to stop searching. Defaults to the string's last index.</li>
+</ul>
+
+<p><strong>Returns</strong>: the substring between <code>beginIndex</code> and <code>endIndex</code> or the word's end.</p>
+
+<h2>Examples</h2>
+
+<pre class="prettyprint lang-java"><code>String word = "racecar";
+word.substring(0);              // "racecar"
+word;                           // still "racecar"
+word.substring(4);              // "car"
+word;                           // still "racecar"
+word.substring(0, 4);           // "race"
+word;                           // "racecar"
+</code></pre>
+
+<p>Strings can't be modified, so calling (for example) <code>word.substring(4);</code> above creates and returns a new string (<code>"car"</code>) but doesn't change the original string (<code>"racecar"</code>).</p>
+
+<h2>Saving substrings</h2>
+
+<p>To save the substring that gets returned, assign it to a variable:</p>
+
+<pre class="prettyprint lang-java"><code>String jewels = "Diamonds, rubies, and emeralds.";
+String shorter = jewels.substring(10,16);
+jewels;                             // "Diamonds, rubies, and emeralds.";
+shorter;                            // "rubies"
+</code></pre>

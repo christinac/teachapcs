@@ -1,0 +1,3 @@
+Computers can do many things, but they're not very good at carrying on a conversation – unless we teach them how to do so.
+
+Chatterbots are programs designed to talk, or chatter, away. <a href=\"http://en.wikipedia.org/wiki/ELIZA\">Eliza</a>, <a href=\"http://en.wikipedia.org/wiki/SmarterChild\">SmarterChild</a>, and <a href=\"http://en.wikipedia.org/wiki/PARRY\">Parry</a> are famous chatterbots of times past. Let's make our own chatterbot.

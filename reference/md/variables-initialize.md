@@ -1,0 +1,3 @@
+# Initializing variables
+
+**WRITEME**

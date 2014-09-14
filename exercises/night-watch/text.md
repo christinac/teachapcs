@@ -1,0 +1,1 @@
+One more chore before you can finally go to sleep: you've got to check each bed for bedbugs. On the dormitory asteroid, the beds are arranged in a checkerboard pattern, so you've got to hop from bed to bed, checking each one.

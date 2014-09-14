@@ -1,0 +1,53 @@
+<h1>for loops</h1>
+
+<p>For loops tell the computer to do something <em>for</em> a set of a variable's values. They're particularly useful when we want the same "thing" done several times in succession.</p>
+
+<p>Let's say, for example, we wanted to print out the numbers 0-5 in order. We could do that with several <code>System.out.println()</code> statement:</p>
+
+<pre class="prettyprint lang-java"><code>System.out.println(0);              //      0
+System.out.println(1);              //      1
+System.out.println(2);              //      2
+System.out.println(3);              //      3
+System.out.println(4);              //      4
+System.out.println(5);              //      5
+</code></pre>
+
+<p>But this manual work is precisely the sort of thing for which a computer is well suited.</p>
+
+<p>Here's some code that prints the whole numbers between 1 and 5, inclusive, using a for loop:</p>
+
+<pre class="prettyprint lang-java"><code>for(int i = 0; i &lt; 6; i++){
+    System.out.println(i);
+}
+
+0
+1
+2
+3
+4
+5
+</code></pre>
+
+<p>Here's the general form of a for loop:</p>
+
+<pre class="prettyprint lang-java"><code>for(&lt;initializing&gt;; &lt;control&gt;; &lt;step&gt;){
+    &lt;statement&gt;;
+}
+</code></pre>
+
+<p>Let's look at the three pieces in the for loop's parentheses:</p>
+
+<ol>
+<li><em>Initializing</em>, e.g. <code>int i = 0</code>, is where the counter starts. The variable can be of any type, called anything, and start with any value, though <code>int</code>s called <code>i</code> or <code>j</code> are standard choices.</li>
+<li><em>Control</em>, e.g. <code>i &lt; 6</code>, is a <word data-key="boolean">boolean</word> statement that tells us how long to continue the loop. We continue so long as this statement is <code>true</code>. (In this case, as long as <code>i</code> is less than 6.) If you write a control statement that never becomes false, your loop will continue forever – or, at least, until it crashes your program.</li>
+<li><em>Step</em>, e.g. <code>i++</code>, is how we change the value of <code>i</code> after all the code that's in the loop has executed. Even though the step expression appears before the statements inside the loop, the stuff inside the loop is executed first.</li>
+</ol>
+
+<p>All for loops can be re-written as while loops. For example, our for loop above can be re-written as:</p>
+
+<pre class="prettyprint lang-java"><code>int i = 0;
+while(i &lt; 6){
+    System.out.println(i);
+    i++;
+}
+</code></pre>

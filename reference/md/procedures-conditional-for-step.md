@@ -1,0 +1,23 @@
+#Step expressions
+The step expression can be anything that increments or decrements the variable.Here's a few examples
+
+    // This loop prints whole numbers between 6 and 1 in descending order
+    for(int i = 6; i > 0; i--){
+        System.out.println(i);
+    }
+
+    // This loop counts up from 0 to 5 using only even numbers
+    for(int i = 0; i < 6; i += 2){
+        System.out.println(i);
+    }
+
+    // This loop prints multiples of 4 between 0 and 16
+    for(int i = 0; i <= 16; i += 4){
+        System.out.println(i);
+    }
+
+    // This loop prints the powers of 2 between 1 and 99
+    for(int i = 1; i < 100; i *= 2){
+        System.out.println(i);
+    }
+

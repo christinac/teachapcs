@@ -1,0 +1,20 @@
+<h1>Order of operations</h1>
+
+<p>Math in computer science follows the rules you already know about the order in which calculations should be performed:</p>
+
+<ol>
+<li>First, do things in parentheses</li>
+<li>Then, calculate the exponents </li>
+<li>Multiply, divide, and modulo afterward</li>
+<li>Finally, add and subtract</li>
+<li><word data-key="casting">Cast</word> at the very end.</li>
+</ol>
+
+<p>For example:</p>
+
+<pre class="prettyprint lang-java"><code>2 + 5 * 2               // 12
+2 + 8 * 4 % 6 - 4       // 30
+5 + 36 % 6 - 10         // 1
+(5 + 6) / (11 - 9.0)    // 5.5
+(double)(3/4)           // 0.0
+</code></pre>

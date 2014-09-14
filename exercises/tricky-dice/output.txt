@@ -1,0 +1,15 @@
+Fair dice rolls a 5
+Tricky dice rolls a 2
+-----
+Fair dice rolls a 3
+Tricky dice rolls a 2
+-----
+Fair dice rolls a 1
+Tricky dice rolls a 3
+-----
+Fair dice rolls a 4
+Tricky dice rolls a 2
+-----
+Fair dice rolls a 2
+Tricky dice rolls a 2
+-----

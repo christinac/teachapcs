@@ -1,0 +1,64 @@
+<h1>Random numbers</h1>
+
+<p>Sometimes when programming, we might want to use random numbers:</p>
+
+<ul>
+<li>simulate a dice roll as we're building a game</li>
+<li>ask the computer to choose a word from a list</li>
+<li>"flip" a coin and give the result as heads or tails</li>
+<li>...</li>
+</ul>
+
+<p>Java's <code>Random</code> class provides tools to make <word data-key="pseudo-random">pseudo-random</word> numbers.</p>
+
+<h2>Using the Random class</h2>
+
+<p>To use the <code>Random</code> class in your program, <word data-key="import">import</word> <code>java.util.random</code> at the top.</p>
+
+<pre class="prettyprint lang-java"><code>import java.util.random
+</code></pre>
+
+<h2>Making a random generator</h2>
+
+<p>In programming, "random" numbers come from random number generators. We can make a generator by making a new <code>Random</code> object: </p>
+
+<pre class="prettyprint lang-java"><code>Random generator = new Random();
+</code></pre>
+
+<p>It's common to call the Random object <code>generator</code> or <code>gen</code>, but like all other variables, you can call it whatever you like.</p>
+
+<h2>Getting random numbers</h2>
+
+<p>Your generator can produce random numbers in a few different ways:</p>
+
+<h3>Random integers (whole numbers)</h3>
+
+<p><code>nextInt(int n)</code>: returns a randomly-selected integer between [0, n-1]. For example, <code>nextInt(10)</code> will return an integer between 0 and 9, inclusive.</p>
+
+<pre class="prettyprint lang-java"><code>generator.nextInt(10);
+9
+generator.nextInt(10);
+7
+</code></pre>
+
+<h3>Random doubles (real numbers)</h3>
+
+<p><code>nextDouble()</code>: returns a randomly-selected <code>double d</code> between 0 (inclusive) and 1 (exclusive), so that <code>0 &lt;= d &lt; 1</code></p>
+
+<pre class="prettyprint lang-java"><code>generator.nextDouble();
+0.2488107901176655
+generator.nextDouble();
+0.09949381836031079
+</code></pre>
+
+<h3>Random integers continued (amongst "all" whole numbers)</h3>
+
+<p><code>nextInt()</code>: returns an integer between [<word data-key="integer-min">Integer.MIN<em>VALUE</word>, <word data-key="integer-max">Integer.MAX</em>VALUE</word>]</p>
+
+<pre class="prettyprint lang-java"><code>generator.nextInt();
+49370236
+generator.nextInt();
+-22997583
+</code></pre>
+
+<p>The <a href="http://docs.oracle.com/javase/6/docs/api/java/util/Random.html">official Java documentation</a> have information for the Random class' other methods.</p>

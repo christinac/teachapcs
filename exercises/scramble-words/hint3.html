@@ -1,0 +1,41 @@
+<p>Strings have indices, just like <word data-key="array">arrays</word>:</p>
+
+<table class="table">
+    <tbody>
+        <tr>
+            <td><strong>Letter</strong></td>
+            <td>H</td>
+            <td>e</td>
+            <td>l</td>
+            <td>l</td>
+            <td>o</td>
+            <td>!</td>
+        </tr>
+        <tr>
+            <td><strong>Index</strong></td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Which means you can move through them with a <word data-key="for">for loop</word>:</p>
+
+<pre class="prettyprint lang-java"><code>String word = "Hello";
+for(int i = 0; i &lt; word.length(); i++){
+    System.out.println(word.substring(i, i +1));
+}
+</code></pre>
+
+<p>will result in:</p>
+
+<pre class="prettyprint lang-java"><code>H
+e
+l
+l
+o
+</code></pre>

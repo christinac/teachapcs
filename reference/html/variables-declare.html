@@ -1,0 +1,23 @@
+<h1>Declaring variables</h1>
+
+<p>Multiple variables can be declared on one line if you'd like to save space. For example:</p>
+
+<pre class="prettyprint lang-java"><code>int first = 5, second;
+first;                                      //    5
+second;                                     // Uninitialized
+second = 10;
+second;                                     // 10
+int sum = first + second;
+sum;                                        // 15
+</code></pre>
+
+<p>Above, we declared the variables <code>first</code> and <code>second</code> on the same line, but we only initialized <code>first</code> with a value – in this case, the value <code>5</code>. Though <code>second</code> is a valid variable, it didn't have a value until line 6, which is why the interpreter yelled when we asked it to evaluate its non-existent value on line 4. On line 9, we declared a variable called <code>sum</code> and initialized it with a value – the sum of the values of the variables <code>first</code> and <code>second</code>, which happened to evaluate to <code>15</code>.</p>
+
+<p>Variables can only have one value at once, but which value they have can change (or vary). For example:</p>
+
+<pre class="prettyprint lang-java"><code>number                                         // 4
+number = 10
+number                                         // 10
+</code></pre>
+
+<p>Now, whenever you type <code>number</code>, you'll get back <code>10</code>, because that's the variable's current value. You might notice we didn't have to tell the interpreter that our <code>number</code> variable is an integer this time. That's because we told the interpreter that <code>number</code> was an integer before, and the interpreter remembered that.</p>

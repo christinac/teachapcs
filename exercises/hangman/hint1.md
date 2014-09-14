@@ -1,0 +1,3 @@
+As a general rule, it's often easier to debug your program when it *isn't* choosing things randomly. That way, you can at least reproduce your errors so it's easier to think through fixing them.
+
+The "random" part of Hangman is choosing a word from the list. Perhaps the first version of your program using the same word, so you won't have to guess which word you've chosen *and* debug at the same time. Once you've got things working for that first word, you could add on the feature of picking words from the list.

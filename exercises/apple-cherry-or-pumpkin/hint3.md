@@ -1,0 +1,9 @@
+If you ask Java to divide a bunch of <word data-key="int">ints</word>, it'll give you back an `int` as the answer – even if that doesn't make sense. For example:
+
+    5/2         // Returns 2
+    4/3         // Returns 1
+
+If you'd like "normal" division – division that results in a number with a decimal – be sure to give Java at least one number with a decimal:
+
+    5/2.0         // Returns 2.5
+    4.0/3         // Returns 1.3333333 ...

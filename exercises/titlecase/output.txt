@@ -1,0 +1,6 @@
+If your name were Eddie, your program should print:
+
+    eddie
+    Eddie
+    eDDIE
+

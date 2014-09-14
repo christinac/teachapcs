@@ -1,0 +1,9 @@
+If we made the `LunchSpecial` mentioned above, it should have the name "Hamburger/Tomato Soup/Coke" and cost $11.
+
+// Assume chosenSandwich is a Sandwich object representing a hamburger, chosenSoup is Soup object representing tomato, and chosenDrink is a Drink object representing a Coke.
+    
+    LunchSpecial special = new LunchSpecial(chosenSandwich, chosenSoup, chosenDrink);
+    special.getPrice();
+    // returns 11.00
+    special.getName();
+    // returns "Hamburger/Tomato Soup/Coke"

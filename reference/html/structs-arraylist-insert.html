@@ -1,0 +1,13 @@
+<h1>Inserting into an ArrayList</h1>
+
+<p>If there's a particular place, or an index, you'd like to put an item in your ArrayList, you can use the <code>void add(int index, Object o)</code> method.</p>
+
+<p>For example:</p>
+
+<pre class="prettyprint lang-java"><code>ArrayList&lt;String&gt; myList = new ArrayList&lt;String&gt;();
+myList.add("Hello");
+myList.add("Goodbye");
+myList.insert(1, "Hiya");
+</code></pre>
+
+<p>produces an ArrayList called <code>myList</code> that looks like <code>["Hello", "Hiya", "Goodbye"]</code> – the "Hiya" string was inserted into the second position (index 1), and everything after was shifted one to the left.</p>

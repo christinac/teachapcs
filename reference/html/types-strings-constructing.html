@@ -1,0 +1,27 @@
+<h1>Constructing a String</h1>
+
+<p>To make a string, you can enclose text on the same line in double quotation marks (<code>"</code> and <code>"</code>) as if they were a <word data-key="primitive">primitive</word>:</p>
+
+<pre class="prettyprint lang-java"><code>String favorite = "Computer Science";
+</code></pre>
+
+<p>Or, you can initialize them as you would an <word data-key="object">object</word>:</p>
+
+<pre class="prettyprint lang-java"><code>String favorite = new String("Computer Science");
+</code></pre>
+
+<p>Strings can be empty. Here's two ways to define an empty string:</p>
+
+<pre class="prettyprint lang-java"><code>String empty = "";
+String alsoEmpty = new String();
+</code></pre>
+
+<p>String objects are <word data-key="immutable">immutable</word> – there's no way to change them once they've been made – but their <word data-key="references">references</word> can be reassigned:</p>
+
+<pre class="prettyprint lang-java"><code>String favorite = "Computer Science";
+// favorite is "Computer Science"
+favorite = "Art History";
+// favorite is now "Art History"
+</code></pre>
+
+<p>The third line reassigns the <code>favorite</code> variable from "Computer Science" to "Art History".</p>

@@ -1,0 +1,48 @@
+<h1>If-else statements</h1>
+
+<p><code>if</code> and <code>if ... else</code> statements give simple instructions:</p>
+
+<pre class="prettyprint lang-java"><code>if (/* It's cold outside */){
+    /* Put on a coat */
+}
+</code></pre>
+
+<p>or </p>
+
+<pre class="prettyprint lang-java"><code>double temperature = 45.3;
+if (temperature &lt; 50.0){
+    putOnACoat();
+}
+</code></pre>
+
+<p><code>else</code> statements are used if you want to do something <em>else</em>:</p>
+
+<pre class="prettyprint lang-java"><code>double temperature = 45.3; 
+if (temperature &lt; 50.0){
+    putOnACoat();
+}else{
+    goOutside();
+}
+</code></pre>
+
+<p>More generally, if-else statements look like:</p>
+
+<pre class="prettyprint lang-java"><code>if (&lt;expression&gt;){
+    &lt;statement&gt;;
+}else{
+    &lt;otherStatement&gt;;
+}
+</code></pre>
+
+<p>and can include as many "layers" of <code>else if</code>s as you'd like:</p>
+
+<pre class="prettyprint lang-java"><code>if (&lt;expression&gt;){
+    &lt;statement&gt;;
+}else if(&lt;otherExpression&gt;){
+    &lt;otherStatement&gt;;
+}else{
+    &lt;anotherStatement&gt;;
+}
+</code></pre>
+
+<p>The <code>&lt;expression&gt;</code> inside the <code>if</code> or <code>else if</code> parentheses should evaluate to either <word data-key="true">true</word> or <word data-key="false">false</word>. Think of converting the Java-ish to English as you read it: "if true" or "if x equals 4" makes more sense than, "if 4."</p>

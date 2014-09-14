@@ -1,0 +1,12 @@
+In Java, every value is stored as a <word data-key="type">type</word>; we've been doing htis already, though we haven't been calling that part out: 
+
+    int i = 10;
+    double d = 24.4;
+
+So far, we've kept these types constant: once we call something an <word data-key="int">int</word>, we keep it an int, and don't try to make it a <word data-key="double">double</word>.
+
+Humans deal with types implicitly: we can tell 42 (an int or whole number) from 42.0 (a double or real number.)
+
+Computers aren't that smart; they only see <word data-key="byte">bytes</word>, so to them, 42 and 42.0 aren't the same. In fact, to a computer, converting 42.0 to 42 is weird: it means we want it to store *less* information than it had been. (After all, 42.0 is more precise than 42.)
+
+Since computers find dropping information so off-putting, we've got to tell them we really, really mean it. <word data-key="casting">Casting</word> is how we do that.
