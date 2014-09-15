@@ -21,13 +21,6 @@ do
 	extension="${prefix##*.}"
 	filename="${prefix%.*}"
 	
-	# perl -pi -e 's/````java/````/g' $f
-	# echo "BeautifulSoup parsing and String replacing in python"
-	# python formatter.py $filename.html
-	# echo "mv-ing $filename to the correct directory"
-	# mv md/$filename.html html/$filename.html
-	# sed -ie 's/code/word/g' html/$filename.html
-
 	echo "mv-ing $filename"
 	markdown $f > html/$filename.html
 
