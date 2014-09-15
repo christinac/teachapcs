@@ -1,9 +1,18 @@
+# Reference for the compiler errors: http://teachapcs.com/errors
+# Format:
+#   error: [String]
+#   explanation: [String]
+#   reference:
+#       - url: [String - relative URLs map to TeachAPCS microtext (http://teachapcs.com/microtext) Absolute URLs permissible too.]
+#         title: [String]
+
+--- 
 - error: "cannot find symbol"
   explanation: "It looks like you're using a <word data-key=\"variable\">variable</word> you haven't defined.<br/><br/> Or maybe you wanted to use a <word data-key=\"string\">String</word>, but you didn't surround it in double quotation marks. When you leave off the double quotes, Java interprets the letters as part of a variable rather than as literal characters.<br/><br/><pre class=\"prettyprint lang-java\"><code>hello\t\t\t//A variable called hello\n\"hello\"\t\t\t//The string \"hello\"</code></pre>"
   reference:
-    - url: '/reference#variables-declare'
+    - url: '/microtext#variables-declare'
       title: 'Declare variables'
-    - url: '/reference#types-strings'
+    - url: '/microtext#types-strings'
       title: 'Make Strings'
 - error: "'(' or '[' expected"
   explanation: "Are you missing a pair of parentheses somewhere?"
@@ -14,12 +23,12 @@
 - error: "might not have been initialized"
   explanation: "One of your variables on that line didn't get an initial value before it was used."
   reference:
-    - url: '/reference#variables-initialize'
+    - url: '/microtext#variables-initialize'
       title: 'Initialize variables'
 - error: "incompatible types"
   explanation: "You might be assigning a variable when you mean to be comparing it.<br/><br/><word data-key=\"=\">=</word> assigns values to variables and <word data-key=\"==\">==</word> asks whether two things are equivalent."
   reference:
-    - url: '/reference#types-boolean-operators'
+    - url: '/microtext#types-boolean-operators'
       title: 'Boolean operators'
 - error: "not a statement"
   explanation: "Are you using a variable you haven't yet defined?"
@@ -27,7 +36,7 @@
 - error: "missing return statement"
   explanation: "Your code isn't <word data-key=\"return\">returning</word> when Java thinks it should. Are you <word data-key=\"print\">printing</word> instead? Does the function end without returning the correct <word data-key=\"type\">type</word>?"
   reference:
-    - url: '/reference#procedures-general'
+    - url: '/microtext#procedures-general'
       title: 'Function return types'
 - error: "illegal start of expression"
   explanation: "It looks like your code has an extra bracket or close (right or <code>)</code>) parenthesis."
@@ -35,12 +44,12 @@
 - error: "bad operand types for binary operator '/'"
   explanation: "Looks like you're trying to divide by something that's not a number."
   reference:
-    - url: '/reference#types-numbers-operators'
+    - url: '/microtext#types-numbers-operators'
       title: 'Division in Java'
 - error: "unclosed string literal"
   explanation: "Your double quotes don't match, so Java couldn't tell where your <word data-key=\"string\">String</word> stopped. Set off your String with double quotes at its start and end (e.g. <code>\"hello\"</code>)"
   reference:
-    - url: '/reference#types-strings'
+    - url: '/microtext#types-strings'
       title: 'Make Strings'
 - error: "';' expected"
   explanation: "Your line needs a semicolon <code>;</code> at its end."
@@ -48,10 +57,10 @@
 - error: "cannot return a value from method whose result type is void"
   explanation: "Your code is <word data-key=\"return\">returning</word> in a place it can't. Did you mean to <word data-key=\"print\">print</word> a variable instead?<br/><br/>If you'd like to return, you'll need to change the method's return type from <word data-key=\"void\">void</word> to whichever <word data-key=\"type\">type</word> you're returning."
   reference:
-    - url: '/reference#procedures-general'
+    - url: '/microtext#procedures-general'
       title: 'Function return types'
 - error: "'else' without 'if'"
   explanation: "It looks like you're using an else statement without a prior <word data-key=\"if-else\">if statement</word>.<br/><br/>Else statements can only be used after if statements. If you want to run <em>only</em> the code inside the 'else', you should delete the if-else block.<br/><br/>Or, if you think you've got an <code>if</code> before your <code>else</code>, the block's curly braces <code>{}</code> might not match or your if condition <code>if ( ... )</code> might end with a semicolon rather than a left curly brace <code>{</code>."
   reference:
-    - url: '/reference#procedures-conditional-ifelse'
+    - url: '/microtext#procedures-conditional-ifelse'
       title: 'If-else statements'
