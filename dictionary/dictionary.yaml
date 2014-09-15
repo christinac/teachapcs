@@ -1,11 +1,21 @@
-# Dictionary entries
-# Potential external sources: 
-    # - Java Documentation
-    # - Wikipedia
-    # - Amplify
-    # - Khan Academy
-    # - Stack Overflow
-    # - YouTube
+# Dictionary entries that power http://teachapcs.com/dictionary
+# Format:
+#    word: [string - used as lookup key]
+#    display: [string - optional - displayed as the dictionary word. If missing, 'word' is shown.]
+#    defintion: [string]
+#    succint: [object list - optional - more succinct definition, used when space is constrained.]
+#        - text: [string - succinct definition]
+#          example: [string - succinct example]
+#          wrapper: [string - used for user input; $REPLACE is replaced by highlighted text]
+#    example: [string - java code - demonstrates word/concept - HTML okay.]
+#    external: [object list - external resources that also explain the concept]
+#        - text: [string - describe the link]
+#          source: [string - source of link]
+#          url: [string - url]
+#    related: [object list - other dictionary words related to this one]
+#        - word: [string - 'word' key of related word]
+#          reason: [string - short statement that relates the two concepts]
+
 --- 
 -
   word: double
@@ -1738,19 +1748,19 @@
           url: https://github.com/christinac/teachapcs
   related: 
 
-# - 
-#   word: "//"
-#   definition: "Comments are notes you can leave in a program that the computer will ignore but might be useful to you or other programmers."
-#   example: "//  I'm a one-line comment, and I won't be printed!"
-#   external:
-#     - text: "Comments are ignored by the compiler but are useful to other programmers. The Java programming language supports three types of comments ..."
-#       source: Java Documentation
-#       url: "http://docs.oracle.com/javase/tutorial/getStarted/application/index.html#COMMENTS"
-#     - text: "This video explains what Java comments are and how to use them."
-#       source: YouTube
-#       url: "https://www.youtube.com/watch?v=-AoHFnlJ1r4"
-#   related:
-#     - word: /*
-#       reason: "another way of starting off a comment in Java."
-#     - word: /**
-#       reason: "another way of starting off a comment in Java."
+#    - 
+#      word: "//"
+#      definition: "Comments are notes you can leave in a program that the computer will ignore but might be useful to you or other programmers."
+#      example: "//  I'm a one-line comment, and I won't be printed!"
+#      external:
+#        - text: "Comments are ignored by the compiler but are useful to other programmers. The Java programming language supports three types of comments ..."
+#          source: Java Documentation
+#          url: "http://docs.oracle.com/javase/tutorial/getStarted/application/index.html#COMMENTS"
+#        - text: "This video explains what Java comments are and how to use them."
+#          source: YouTube
+#          url: "https://www.youtube.com/watch?v=-AoHFnlJ1r4"
+#      related:
+#        - word: /*
+#          reason: "another way of starting off a comment in Java."
+#        - word: /**
+#          reason: "another way of starting off a comment in Java."

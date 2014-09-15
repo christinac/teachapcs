@@ -1,6 +1,9 @@
+# Organization for the Java Microtext: http://teachapcs.com/microtext
+# Each block key maps to the filename of a section. Order runs low --> high
+# Format:
 #   title: [String]
 #   order: [float]
-#   block:    # Maps to Block model
+#   block:
 #       - key: [String]
 #         order: [float]
 

@@ -1,12 +1,19 @@
-#   title: [String]
-#   text: [String]
-#   order: [float]
-#   exercise:
+# Organization for the exercises: http://teachapcs.com/exercises
+# Format:
+#     title: [String]
+#     text: [String]
+#     order: [float]
+#     exercise:
 #       - title: [String]
-#           tags: [comma-separated strings]
-#           objective: [String]
+#           tags:
+#              - key [String - (currently) no standardization]
+#           label: [String - one of 'student', 'polish', or 'sketch']
+#           solved: [String - YouTube video embed suffix to a video of someone coding a solution]
+#           objective: [String - not currently exposed]
+#           blockuse:
+#             - key: [String - maps to a microtext filename - not currently exposed]
 #           tools:
-#             - key: [String]
+#             - key: [String - maps to dictionary 'word']
 #           extra:
 #             - text: [String]
 #               source: [String]
