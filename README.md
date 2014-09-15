@@ -10,9 +10,12 @@ Tools, links, exercises, and reference materials from [TeachAPCS](http://teachap
 - `/reference` is the [Microtext](https://github.com/christinac/teachapcs)
 - `/resources` catalogs external resources – links, videos, or textbook snippets – that could supplement other material. These power the [Video Microlectures](http://teachapcs.com/microlectures) and the "other resources" section of the [Microtext](https://github.com/christinac/teachapcs)
 
+## Contributing
+Please do! Ideally by [pull request](https://help.github.com/articles/creating-a-pull-request) or [mailing list](https://groups.google.com/forum/#!forum/teachapcs) email.
+
 ## License
 The TeachAPCS.com material is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
 
 Meaning: you're free to share and adapt the material as you like, so long as you give appropriate credit (including a link!), indicate whether changes were made, do not use the material for commercial purposes, and distribute your revisions under the same license.
 
-Neither TeachAPCS.com nor this material has any affiliation with the College Board.
+Neither TeachAPCS nor this material has any affiliation with the College Board.
