@@ -1,3 +1,11 @@
+# Organization for external resources: http://teachapcs.com/microtext and http://teachapcs.com/microlectures
+# Format:
+#     key: [String - maps to a microtext filename]
+#     external:
+#       - text: [String]
+#         source: [String]
+#         url: [String]
+
 --- 
 -   key: basics-classes
     external:
