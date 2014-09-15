@@ -24,7 +24,7 @@
 Order isn't currently being kept in the file. (If you'd like to suggest or impose an ordering scheme, please do!)
 
 ###Missing words
-A (partial) list of words the (many) Java words that the dictionary lacks. 
+A (partial) list of words the (many) Java words the dictionary lacks. If you're looking for a place to start contributing, this is a great one – 
 
 - +=
 - access-control

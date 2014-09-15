@@ -1,16 +1,16 @@
 #Popular Exercises
 `units.yaml` tracks the exercises on [http://teachapcs.com/exercises](http://teachapcs.com/exercises)
 
-##Format
+##Overview
 Exercises consist of:
 
-- `text.md` and `text.html` which introduce the exercises
-- `exercise.md` and `exercise.html` which detail the task
-- `output.txt` *or* `output.html` which demonstrate what the program should "do" when it's done
-- `hint[$d].md` and `hint[$d].html` which give quick hints to solve the exercise
+- `text.md` and `text.html` introduce the exercise
+- `exercise.md` and `exercise.html` detail the task
+- `output.txt` *or* `output.html` demonstrate what the program "should do" when it's done
+- `hint[$d].md` and `hint[$d].html` give quick hints to solve the exercise
 - Starter code, saved as a `.java` file
 
-[Python-Markdown](https://pythonhosted.org/Markdown/install.html) is one way to convert markdown files (which can be easier to read, write, and maintain) to HTML files.
+[Python-Markdown](https://pythonhosted.org/Markdown/install.html) is one way to convert markdown (which can be easier to read, write, and maintain) to HTML.
 
 ## Format
     title: [String]

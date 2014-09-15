@@ -12,4 +12,4 @@ Keys match files stored in the `md` and `html` folders.
         - key: [String]
           order: [float]
 
-The `transform.sh` bash script easily converts and copies the markdown contents of files in the `md` directory to the `html` directory.
+`transform.sh` converts and copies the markdown contents of files in the `md` directory to the `html` directory. Requires [Python-Markdown](https://pythonhosted.org/Markdown/install.html).
