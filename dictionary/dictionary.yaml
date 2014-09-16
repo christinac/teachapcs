@@ -1747,6 +1747,21 @@
           source: Github
           url: https://github.com/christinac/teachapcs
   related: 
+  
+  word: byte
+  definition: "A unit of binary information consisting of eight binary digits (bits). A byte can represent 2^8 or 256 unique numbers"
+  succinct:
+        -text: "8 bits."
+        example: 10110011
+  example: 10000001
+  external:
+       -text:"The byte /ˈbaɪt/ is a unit of digital information in computing and telecommunications that most commonly consists of eight bits."
+        source: Wikipedia
+        url: http://en.wikipedia.org/wiki/Byte
+  related:
+    -word: "A fixed size group of digits that are used as a unit by a particular computer architecture."
+    reason:"A byte is an example of a word."
+    
 
 #    - 
 #      word: "//"
