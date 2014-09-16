@@ -1,0 +1,74 @@
+***********************
+  ***** NEW ORDER *****
+***********************
+
+     1. Burger     4. Total
+     2. Fry           5. Cash Out
+     3. Shake
+
+>> 1
+
+     1. Burger     4. Total
+     2. Fry           5. Cash Out
+     3. Shake
+
+>> 2
+
+     1. Burger     4. Total
+     2. Fry           5. Cash Out
+     3. Shake
+
+>> 3
+
+     1. Burger     4. Total
+     2. Fry           5. Cash Out
+     3. Shake
+
+>> 2
+
+     1. Burger     4. Total
+     2. Fry           5. Cash Out
+     3. Shake
+
+>> 4
+
+*****
+***** ORDER: 4312
+***** 1 Burger
+***** 2 Fry
+***** 1 Shake
+*****
+***** Subtotal = 8.42
+***** Tax = 0.65
+***** Total = 9.07
+*****
+
+     1. Burger     4. Total
+     2. Fry           5. Cash Out
+     3. Shake
+
+>> 5
+
+*****
+***** ORDER: 4312
+***** Amount tendered: 10.00
+***** Change: 0.93
+*****
+
+***********************
+  ***** NEW ORDER *****
+***********************
+
+     1. Burger     4. Total
+     2. Fry           5. Cash Out
+     3. Shake
+
+>> 9
+
+ERROR: Invalid input
+
+     1. Burger     4. Total
+     2. Fry           5. Cash Out
+     3. Shake
+
+>>

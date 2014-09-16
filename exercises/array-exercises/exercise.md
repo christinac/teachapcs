@@ -1,0 +1,3 @@
+1. Write a <word data-key="function">method</word> that starts with an array `A = [2, 4, 6, 8, 10]` and computes an array `B` that holds the squares of the elements in array A (so `B = [4, 16, .. ]`.)
+2. Write a method that starts with an array `A = [-2, 12, 0, 34, 43]` and an array B that holds values such that the sum of indexed elements is 25.  Your program should compute these values and place them in `B`.
+3. Write a method that uses three arrays, `A = [-1, 5, 0, 31, 12]`; `B = [0, 2, -4, 21, 4]`; and `C` such that `C` holds the difference between indexed elements of A and B.  Your program should calculate these values and place them in `C`.

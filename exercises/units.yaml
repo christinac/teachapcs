@@ -174,6 +174,45 @@
           - text: An online magic 8 ball calculator
             url: http://www.ask8ball.net/
             source: Ask 8 ball
+    - title: "Loop exercises"
+      label: student
+      author: 
+      - name: Charlie Lunetta
+        url: https://www.tracy.k12.ca.us/sites/clunetta/index.htm
+      tags:
+          - key: strings
+          - key: for loops
+          - key: printing
+      blockuse:
+          - key: types-strings
+          - key: procedures-conditional-intro
+          - key: procedures-conditional-for
+      objective:
+          - text:
+      tools:
+          - key: string
+          - key: for
+          - key: print
+      extra:
+    - title: "Array exercises"
+      label: student
+      author: 
+      - name: Charlie Lunetta
+        url: https://www.tracy.k12.ca.us/sites/clunetta/index.htm
+      tags:
+          - key: basic math
+          - key: arrays
+      blockuse:
+          - key: structs-arrays
+          - key: structs-arrays-constructing
+      objective:
+          - text:
+      tools:
+          - key: array-int
+          - key: math-pow
+          - key: '+'
+          - key: '-'
+      extra:
     - title: "FizzBuzz"
       label: student
       solved: "cHgaKc7rMQw?list=PLX7CEu120-9McrHj5gAb9jxFV015AV5mg&index=2"
@@ -560,6 +599,32 @@
           - key: if-else
           - key: print
           - key: _return
+    - title: "Treasure hunt"
+      label: polish
+      author: 
+      - name: Charlie Lunetta
+        url: https://www.tracy.k12.ca.us/sites/clunetta/index.htm
+      tags:
+          - key: 2d arrays
+          - key: if statements
+          - key: for loops
+          - key: printing
+      blockuse:
+          - key: structs-arrays
+          - key: procedures-conditional-intro
+          - key: procedures-conditional-if
+          - key: procedures-conditional-for
+      objective:
+          - text:
+      extra:
+      tools:
+          - key: int
+          - key: string
+          - key: array-string
+          - key: if-else
+          - key: for
+          - key: print
+          - key: random-int
 
 - title: Introducing classes
   text: "Students will experiment with classes as \"conceptual containers,\" used to separate dissimilar parts of program, without writing their own classes."
@@ -738,6 +803,30 @@
           - key: class
           - key: string
           - key: str-concat
+    - title: "Restuarant systems"
+      label: student
+      author: 
+      - name: Charlie Lunetta
+        url: https://www.tracy.k12.ca.us/sites/clunetta/index.htm
+      tags:
+          - key: if statements
+          - key: for loops
+          - key: printing
+          - key: classes
+          - key: program design
+      blockuse:
+          - key: basics-classes
+          - key: types-strings
+      objective:
+          - text:
+      extra:
+      tools:
+          - key: string
+          - key: double
+          - key: array-int
+          - key: if-else
+          - key: for
+          - key: print
     - title: Message in a bottle
       label: polish
       author: 

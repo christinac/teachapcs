@@ -1,0 +1,13 @@
+Use a <word data-key="array">2d array</word> to represent a 10 x 10 grid of boxes. Your program should <word data-key="random">randomly</word> place a "prize" into four of the boxes.
+
+The computer then guesses boxes until it finds all the prizes. A few other constraints:
+- The program cannot place more than one prize in a box.
+- The computer cannot make a guess it has already made.
+- Track the number of guesses needed to find all the prizes.
+- Display the number of guesses needed to find each box when it has been found
+
+Once all the boxes have been found, also display the total number of guesses needed.
+
+Oh, yeah—you have to redraw the grid after each guess.  Be sure to separate the "iterations" from each other in such a way that the user won't be confused.
+
+ 
