@@ -28,7 +28,6 @@ A (partial) list of words the (many) Java words the dictionary lacks. If you're 
 
 - +=
 - access-control
-- byte
 - cast
 - compiler-error
 - constant
