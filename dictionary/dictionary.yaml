@@ -17,7 +17,7 @@
 #          reason: [string - short statement that relates the two concepts]
 
 --- 
- 
+-
   word: double
   definition: "One of Java's basic (primative) types; this one represents a real number."
   succinct:
