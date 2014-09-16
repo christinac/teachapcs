@@ -1,0 +1,37 @@
+For example, assume that vector data contains the values shown below. 
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<td>Index</td><td>k data[k]</td><td>Length of bar </td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>0</td><td>3</td><td>5</td></tr>
+			<tr><td>1</td><td>5</td><td>8</td></tr>
+			<tr><td>2</td><td>9</td><td>15</td></tr>
+			<tr><td>3</td><td>10</td><td>15</td></tr>
+			<tr><td>4</td><td>12</td><td>20</td></tr>
+			<tr><td>5</td><td>11</td><td>18</td></tr>
+			<tr><td>6</td><td>9</td><td>15</td></tr>
+			<tr><td>7</td><td>4</td><td>6</td></tr>
+	</tbody>
+</table>
+
+String returned as a result of the call printHistogram(data, 20, ‘x’):
+<pre><code>
+xxxxx 
+xxxxxxxx 
+xxxxxxxxxxxxxxx 
+xxxxxxxxxxxxxxxx 
+xxxxxxxxxxxxxxxxxxxx 
+xxxxxxxxxxxxxxxxxx 
+xxxxxxxxxxxxxxx 
+xxxxxx
+</code></pre>
+
+<h2>Notes about the String returned</h2>
+<ul>
+<li>There are no spaces at the end of the lines</li>
+<li>the last line does NOT have a <code>\n</code> character like the others </li>
+</ul>

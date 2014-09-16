@@ -5,7 +5,10 @@
 #     order: [float]
 #     exercise:
 #       - title: [String]
-#           tags:
+#           author: 
+      # - name: Christina Cacioppo
+      #   url: http://www.teachapcs.com
+      # tags:
 #              - key [String - (currently) no standardization]
 #           label: [String - one of 'student', 'polish', or 'sketch']
 #           solved: [String - YouTube video embed suffix to a video of someone coding a solution]
@@ -25,6 +28,9 @@
   order: 1.0
   exercise:
     - title: Slippery slopes      
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: doubles
           - key: variables
@@ -52,6 +58,9 @@
     - title: "Tricky dice"
       files:
       label: sketch
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: ints
           - key: random
@@ -85,6 +94,9 @@
       extra:
     - title: "Titlecase"
       label: polish
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: strings
           - key: variables
@@ -107,6 +119,9 @@
       extra:
     - title: Casting spells on numbers
       label: polish
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: int
           - key: double
@@ -129,6 +144,9 @@
     - title: "Magic 8 ball"
       label: student
       solved: "Z2iosmsrNKI?list=PLX7CEu120-9McrHj5gAb9jxFV015AV5mg&index=4"
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: random
           - key: arrays
@@ -159,6 +177,9 @@
     - title: "FizzBuzz"
       label: student
       solved: "cHgaKc7rMQw?list=PLX7CEu120-9McrHj5gAb9jxFV015AV5mg&index=2"
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: strings
           - key: for loops
@@ -178,6 +199,61 @@
           - key: while
           - key: print
       extra:
+    - title: Statistics
+      label: student
+      author: 
+      - name: Dave Wittry
+        url: http://www.apcomputerscience.com
+      tags:
+          - key: ints
+          - key: basic math
+      blockuse:
+          - key: types-int
+          - key: external-math
+          - key: types-casts-math
+          - key: types-numbers-operators
+      objective:
+          - text:
+      tools:
+          - key: int
+          - key: '+'
+          - key: '/'
+          - key: '*'
+          - key: math-sqrt
+      extra:
+          - text:
+            url:
+            source:
+    - title: Statistics and Histograms
+      parent: statistics
+      label: student
+      author: 
+      - name: Dave Wittry
+        url: http://www.apcomputerscience.com
+      tags:
+          - key: ints
+          - key: basic math
+          - key: strings
+          - key: printing
+      blockuse:
+          - key: types-int
+          - key: types-strings
+          - key: external-math
+          - key: types-casts-math
+          - key: types-numbers-operators
+      objective:
+          - text:
+      tools:
+          - key: int
+          - key: string
+          - key: '+'
+          - key: '/'
+          - key: '*'
+          - key: math-sqrt
+      extra:
+          - text:
+            url:
+            source:
 
 - title: Writing functions
   text: "Students will be able to write functions/methods, and they'll gain confidence in tracing through control flow across multiple functions."
@@ -185,6 +261,9 @@
   exercise:
     - title: Pythagorean Theorem
       label: student
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: doubles
           - key: variables
@@ -210,9 +289,37 @@
           - text:
             url:
             source:
+    - title: Compact data
+      label: student
+      author: 
+      - name: Dave Wittry
+        url: http://www.apcomputerscience.com
+      tags:
+          - key: ints
+          - key: arrays
+          - key: methods
+      blockuse:
+          - key: procedures-intro
+          - key: procedures-general
+          - key: types-int
+          - key: structs-arrays
+          - key: structs-arrays-constructing
+      objective:
+          - text:
+      tools:
+          - key: int
+          - key: array-int
+          - key: _return
+      extra:
+          - text:
+            url:
+            source:
     - title: "Scramble words"
       label: student
       solved: "aRt1ggnVcco?list=PLX7CEu120-9McrHj5gAb9jxFV015AV5mg&index=6"
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: strings
           - key: for loops
@@ -232,18 +339,12 @@
           - key: _return
           - key: function
       extra:
-    - title: Guess the computer's number; have the computer guess your number
-      text:
-      blockuse:
-          - key: procedures-conditional-intro
-          - key: procedures-conditional-while
-      objective:
-          - text:
-      tools:
-          - key:
     - title: Bunnies
       label: student
       solved: "awr1ZPwpCoU?list=PLX7CEu120-9McrHj5gAb9jxFV015AV5mg&index=1"
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: for loops
           - key: recursion
@@ -266,6 +367,9 @@
   exercise:
     - title: "On a roll"
       label: student
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: for loops
           - key: functions
@@ -289,6 +393,9 @@
           - key: class
     - title: "Measuring that roll"
       label: student
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: arrays
           - key: for loops
@@ -316,6 +423,9 @@
           - key: class
     - title: "Scramble or remove"
       label: student
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: strings
           - key: for loops
@@ -345,6 +455,9 @@
     - title: It's raining hailstones!
       label: student
       solved: "xDnFR1ds7i8?list=PLX7CEu120-9McrHj5gAb9jxFV015AV5mg&index=5"
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: if statements
           - key: while loops
@@ -379,17 +492,39 @@
           - key: if-else
           - key: while
           - key: print
-    - title: Square roots
-      text: "Long before the age of calculators, physicist Isaac Newton figured out a way to calculate a square root using successive approximations: <ol><li>Start out with some guess for <code>y</code>, the square root of <code>x</code>.</li> <li>Improve the value of <code>y</code> by averaging the prior value of <code>y</code> with <code>x/y</code>.</li> </ol> <p>For example:</p> <table class='table table-striped'><tr><td>Guess (x)</td><td>Quotient (x/y)</td><td>Average</td></tr> <tr><td>4</td><td>9/4 = 2.5</td><td> (4 + 2.5)/2 = 3.25</td></tr> <tr><td>3.25</td><td>9/3.25 = 2.7692</td><td>(3.25 + 2.7692)/2 = 3.0096</td></tr><tr><td>3.0096</td><td>9/3.0096 = 2.99043</td><td>(3.0096 + 2.99043)/2 = 3.000015</td></tr></table>"
+    - title: Car rentals
+      label: student
+      author: 
+      - name: Dave Wittry
+        url: http://www.apcomputerscience.com
+      tags:
+          - key: if statements
+          - key: for loops
+          - key: strings
+          - key: mods
       blockuse:
+          - key: types-strings
+          - key: types-numbers-operators
           - key: procedures-conditional-intro
+          - key: procedures-conditional-if
+          - key: procedures-conditional-for
+      extra:
       objective:
           - text:
       tools:
-          - key:
+          - key: string
+          - key: str-substring
+          - key: str-concat
+          - key: "%"
+          - key: for
+          - key: if-else
+          - key: _return
     - title: "Apple, cherry, or pumpkin?"
       label: student
       solved: "mSdoUpXxgIo?list=PLX7CEu120-9McrHj5gAb9jxFV015AV5mg&index=3"
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: if statements
           - key: for loops
@@ -432,6 +567,9 @@
   exercise: 
     - title: Caesar ciphers
       label: student
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: characters
           - key: strings
@@ -464,6 +602,9 @@
           - key: _return
     - title: Do you need an umbrella?
       label: polish
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: random
           - key: external classes
@@ -491,6 +632,9 @@
           - key: print
     - title: Seating Charts
       label: student
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: arraylists
           - key: 2d arrays
@@ -511,6 +655,9 @@
     - title: Seating Charts 2
       parent: seating-charts      
       label: student
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: arraylists
           - key: 2d arrays
@@ -536,6 +683,9 @@
   exercise:
     - title: Bitcoin
       label: polish
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: arraylists
           - key: classes
@@ -550,8 +700,49 @@
           - text:
       tools:
           - key:
+    - title: Making Change
+      label: student
+      author: 
+      - name: Dave Wittry
+        url: http://www.apcomputerscience.com/
+      tags:
+          - key: classes
+          - key: casting
+          - key: strings
+      blockuse:
+          - key: basics-classes
+          - key: types-casts
+          - key: types-strings
+      objective:
+          - text:
+      tools:
+          - key: '+'
+          - key: '-'
+          - key: '/'
+          - key: '%'
+          - key: class
+    - title: Mode Histogram
+      label: student
+      author: 
+      - name: Dave Wittry
+        url: http://www.apcomputerscience.com/
+      tags:
+          - key: classes
+          - key: strings
+      blockuse:
+          - key: basics-classes
+          - key: types-strings
+      objective:
+          - text:
+      tools:
+          - key: class
+          - key: string
+          - key: str-concat
     - title: Message in a bottle
       label: polish
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: classes
           - key: visibility
@@ -563,7 +754,11 @@
       objective:
           - text:
       tools:
-          - key:
+          - key: class
+          - key: arraylist
+          - key: arraylist-get
+          - key: arraylist-set
+          - key: arraylist-add
 
 - title: Understanding hierarchy and inheritence
   text: "Students will be able to design, implement, and use their own classes that make use of object-oriented programming principles and inheritance."
@@ -571,6 +766,9 @@
   exercise:
     - title: Lunch Special
       label: student
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: classes
           - key: interface
@@ -593,6 +791,9 @@
           - key: class
     - title: Chattering Chatterbot
       label: polish
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: classes
           - key: inheritance
@@ -618,8 +819,28 @@
   text: "Students will be able to understand code that they didn't write, and they'll also be able to modify it to achieve their own ends."
   order: 5.0
   exercise: 
+    - title: Polygons
+      label: student
+      author: 
+      - name: Dave Wittry
+        url: http://www.apcomputerscience.com/
+      tags:
+          - key: classes
+          - key: inheritance
+          - key: interface
+      blockuse:
+          - key: basics-classes
+      objective:
+          - text:
+      tools:
+          - key: class
+          - key: double
+          - key: math-round
     - title: The Watchmaker
       label: sketch
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: classes
           - key: debugging
@@ -633,6 +854,9 @@
           - key: class
     - title: Interfacing with playing cards
       label: sketch
+      author: 
+      - name: Christina Cacioppo
+        url: http://www.teachapcs.com
       tags:
           - key: compareTo
           - key: classes

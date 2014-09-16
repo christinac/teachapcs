@@ -1,0 +1,12 @@
+INPUT:
+Amount of purchase: 23.06
+Cash tendered: 30.00
+
+OUTPUT:
+Amount of Purchase: 23.06
+Cash Tendered: 30.00 
+Dollars returned: $6
+Coins returned: 94¢ = 3 quarters
+1 dime
+1 nickel
+4 pennies

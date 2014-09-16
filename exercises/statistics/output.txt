@@ -1,0 +1,6 @@
+Given the numbers 7 4 5 9 10:
+
+- Average: 7
+- Sum of square of differences: (7 - 7)2 + (4 - 7)2 + (5 - 7)2 + (9 - 7)2 + (10 - 7) = 0 + 9 + 4 + 4 + 9 = 26
+- Division by sum less one: 26/(5-1) = 6.50
+- Square root: Square root(6.50) = 2.55

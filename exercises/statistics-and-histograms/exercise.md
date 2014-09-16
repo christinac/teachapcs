@@ -1,0 +1,3 @@
+Print a histogram of the frequency counts of the numbers in the `numbers.txt` file.
+
+Since the range of numbers is [0,100] you’ll need to break up the lines as shown above (0...25, 26...50, 51...75, 76...100). There should only be one blank line between any row of numbers and the highest star in the row under the numbers.
