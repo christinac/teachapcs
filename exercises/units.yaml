@@ -950,7 +950,6 @@
           - key: compareTo
           - key: classes
           - key: inheritance
-          - key: compareTo
       blockuse:
           - key: objects-comparable
           - key: objects-interface
