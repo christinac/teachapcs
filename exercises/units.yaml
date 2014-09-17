@@ -23,7 +23,7 @@
 #               url: [String / URL]
 
 --- 
-- title: Entering and mainpulating data
+- title: Entering and manipulating data
   text: "Students will be able to create, manipulate, and store data inside their programs. They'll also gain confidence in tracing through code inside a single method."
   order: 1.0
   exercise:
