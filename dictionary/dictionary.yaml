@@ -530,6 +530,21 @@
       reason:
 
 - 
+  word: fn-static
+  definition: "A function that belongs to a <word data-key='class'>class</word> rather than a particular <word data-key='instance'>instance</word> of the class."
+  example: Math.abs(-4);<br/>StringUtils.isEmpty(String text);<br/>String.valueOf(boolean b);
+  external:
+    - text: Java static variables and methods
+      source: YouTube
+      url: "https://www.youtube.com/watch?v=gTk_F61_-9k"
+    - text: When to use static methods in Java
+      source: StackOverflow
+      url: "http://stackoverflow.com/questions/2671496/java-when-to-use-static-methods"
+  related:
+    - word: 
+      reason:
+
+- 
   word: public
   definition: "A Java keyword that means the variable, method, or class it describes is accessible from anywhere. Formally, public is called an <em>access control modifier</em> because it modifies access to the thing it describes."
   example: 
@@ -671,6 +686,23 @@
   related:
 
 - 
+  word: "variable-scope"
+  display: Variable scope
+  definition: "The way you talk about which variables different parts of a program can \"see\". Loops, conditionals, methods, and classes each have their own scope."
+  example: "//The variable 'even' is scoped to the 'isEven' function\nboolean isEven(int num){\n\tboolean even = num % 2 == 0;\n\treturn even;\n}"
+  external:
+    - text: "The scope of an association of a name to an entity, such as a variable, is the part of a computer program where the binding is valid: where the name can be used to refer to the entity. "
+      source: Wikipedia
+      url: "http://en.wikipedia.org/wiki/Scope_(computer_science)"
+    - text: Local and global variables
+      source: Khan Academy
+      url: "https://www.khanacademy.org/computing/cs/programming/functions/p/local-and-global-variables"
+    - text: Introduction to variable scope in Java
+      source: YouTube
+      url: "https://www.youtube.com/watch?v=Y2iN3TO5qOQ"
+  related:
+
+- 
   word: "for"
   display: "for loop"
   definition: "A way to tell your program to repeatedly run some code a certain number of times."
@@ -754,11 +786,11 @@
     - word: double
       reason: "One of Java's primitive data types"
 - 
-  word: "Object"
-  definition: 'More complicated data types, often made up of several <word>primitives</word>, that are often designed to mimic "things" in the world around you.'
-  example: "<pre><code>int i<br />double d<br />boolean b</code></pre>"
+  word: "object"
+  definition: 'A collection of data, bundled together, often designed to mimic "things" in the world around you.'
+  example: "class Book{\n\tString title;\n\tString author;\n\n\tBook(String titleFromuser, authorFromuser){\n\t\tthis.title = titleFromuser;\n\t\tthis.author = authorFromuser;\n\t}\n\n\tpublic static void main(String[] args){\n\t\t//Make a book - that's your object\n\t\tBook b = new Book(\"Alice in Wonderland\", \"Lewis Carroll\");\n\t}\n}"
   external:
-    - text: "In computer science, an object is a location in memory having a value and possibly referenced by an identifier. An object can be a variable, function, or data structure. "
+    - text: "In computer science, an object can be a variable, function, or data structure. "
       source: Wikipedia
       url: "http://en.wikipedia.org/wiki/Object_(computer_science)"
     - text: Introduction to objects
