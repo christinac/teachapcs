@@ -359,6 +359,9 @@
         url: "http://www.willamette.edu/~gorr/classes/cs231/lectures/chapter9/arrays2d.htm"
 -   key: structs-arrays
     external: 
+      - text: Array worksheet
+        source: "AP Computer Science by Dave Wittry"
+        url: "http://www.apcomputerscience.com/syllabus/arrayPracticeWorksheet.pdf"
       - text: Array tutorial
         source: Oracle's Java Documentation
         url: "http://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html"

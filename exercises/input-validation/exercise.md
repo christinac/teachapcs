@@ -1,0 +1,10 @@
+Make a helper method called `isAllAlpha(String str)`. This method should return <word data-key="true">true</word> if every character in str is a letter, upper or lower case.
+
+- Make a helper method called `isNumeric(String str)`. This method should return true if every character in str is a number. In addition, can contain, at most, 1 '.'
+- Make sure that the name is at least 2 letters and includes no numbers
+- Make sure that the password is at least 4 characters, contains at least 1 number, 1 lower case letter and 1 upper case letter.
+- Don't let the user's password be the same as his or her name
+- The email must include an @ as well as a "." and the "." must come after the "@"
+- The zip code must be all numbers and be the right length (zip codes have between 3 and 5 digits)
+- Make sure that the person was born at reasonable date (not 1820 or this year!)
+- Ensure that the phone number is valid (no letters and follows the prescribed format)

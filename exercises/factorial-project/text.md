@@ -1,0 +1,1 @@
+This lab is designed to give you practice tracing through nested <word data-key="for">for</word> loops.

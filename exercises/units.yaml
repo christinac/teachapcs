@@ -194,6 +194,24 @@
           - key: for
           - key: print
       extra:
+    - title: "Factorial project"
+      label: student
+      author: 
+      - name: Javaclass.info
+        url: http://www.javaclass.info/
+      tags:
+          - key: for loops
+          - key: nested loops
+      blockuse:
+          - key: procedures-conditional-intro
+          - key: procedures-conditional-for
+      objective:
+          - text:
+      tools:
+          - key: for
+          - key: print
+          - key: "+"
+      extra:
     - title: "Array exercises"
       label: student
       author: 
@@ -212,6 +230,45 @@
           - key: math-pow
           - key: '+'
           - key: '-'
+      extra:
+    - title: "Array fun"
+      label: student
+      author: 
+      - name: Javaclass.info
+        url: http://www.javaclass.info/
+      tags:
+          - key: basic math
+          - key: arrays
+      blockuse:
+          - key: structs-arrays
+          - key: structs-arrays-constructing
+      objective:
+          - text:
+      tools:
+          - key: array-int
+          - key: array-double
+          - key: '+'
+          - key: '-'
+      extra:
+    - title: "Array fun with strings"
+      parent: "array-fun"
+      label: student
+      author: 
+      - name: Javaclass.info
+        url: http://www.javaclass.info/
+      tags:
+          - key: basic math
+          - key: arrays
+          - key: strings
+      blockuse:
+          - key: structs-arrays
+          - key: structs-arrays-constructing
+      objective:
+          - text:
+      tools:
+          - key: array-string
+          - key: string
+          - key: '+'
       extra:
     - title: "FizzBuzz"
       label: student
@@ -399,6 +456,27 @@
           - key: "-"
           - key: "+"
           - key: int
+    - title: Recursion exercises
+      label: student
+      author: 
+      - name: Victor Morgan
+        url: http://mrmonline.org/site/ap-cs-2013-2014/
+      tags:
+          - key: recursion
+          - key: basic map
+          - key: string manipulation
+      blockuse:
+          - key: types-strings
+      objective:
+          - text: 
+      tools:
+          - key: if-else
+          - key: _return
+          - key: ==
+          - key: "-"
+          - key: "+"
+          - key: int
+          - key: "string"
 
 - title: Writing functions that interact
   text: "Students will continue to write functions/methods, now with the added challenge of tracing through control flow across multiple function/methods."
@@ -741,6 +819,25 @@
           - key: arraylist-set
           - key: if-else
           - key: '>'
+    - title: "Input validation"
+      label: student
+      author: 
+      - name: Javaclass.info
+        url: http://www.javaclass.info/
+      tags:
+          - key: for loops
+          - key: strings
+          - key: java swing
+      blockuse:
+          - key: procedures-conditional-intro
+          - key: procedures-conditional-for
+      objective:
+          - text:
+      tools:
+          - key: for
+          - key: if-else
+          - key: print
+      extra:
 
 - title: Writing classes
   text: "Students will design, implement, and use classes on their own. They'll be challenged to reason about which data belongs in which class."

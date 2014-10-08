@@ -1,0 +1,1 @@
+Every web site on the internet that takes input from a user has to validate that it's good input. And all those professional engineers write code that's like the code you're going to write here!

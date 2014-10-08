@@ -1,0 +1,38 @@
+// countDown(5)
+5
+4
+3
+2
+1
+0
+
+// countDown(3)
+3
+2
+1
+0
+
+// printRev(“abcdef”)
+a
+b
+c
+d
+e
+f
+
+// printRev(“abc”)
+a
+b
+c
+
+// sumLessThan(4)
+10
+
+// sumLessThan(5)
+15
+
+// average({3,2,1}, 0)
+2
+
+// average({3,2,2}, 0)
+2.333333

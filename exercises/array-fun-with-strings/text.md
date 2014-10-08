@@ -1,0 +1,1 @@
+In this project, you'll perform a few methods on an <word data-key="array-string">array of strings</word>.
