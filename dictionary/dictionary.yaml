@@ -671,7 +671,7 @@
 
 - 
   word: "variable"
-  definition: "A name that's used in programming to refer to a <word>value</word>"
+  definition: "A name that's used in programming to refer to a <word data-key='value'>value</word>"
   example: '<code>x</code> is the variable in <code>int x = 2;</code> <code>2</code> is the value.'
   external:
     - text: "In computer programming, a variable or scalar is a storage location and an associated symbolic name (an identifier) which contains some known or unknown quantity or information, a value."
