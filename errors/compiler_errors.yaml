@@ -54,6 +54,9 @@
 - error: "';' expected"
   explanation: "Your line needs a semicolon <code>;</code> at its end."
   reference:
+- error: "Syntax error, insert \";\""
+  explanation: "Your line needs a semicolon <code>;</code> at its end."
+  reference:
 - error: "cannot return a value from method whose result type is void"
   explanation: "Your code is <word data-key=\"return\">returning</word> in a place it can't. Did you mean to <word data-key=\"print\">print</word> a variable instead?<br/><br/>If you'd like to return, you'll need to change the method's return type from <word data-key=\"void\">void</word> to whichever <word data-key=\"type\">type</word> you're returning."
   reference:
