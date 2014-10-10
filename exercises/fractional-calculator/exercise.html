@@ -1,0 +1,101 @@
+<ul>
+<li>No numbers in the fraction will exceed the limits of a Java int (between -2,147,483,648 and 2,147,483,647) after they are multiplied – which means the input will be between -32,768 and 32767.</li>
+<li>As you make changes think about how you are going to ensure all different scenarios still work. In other words figure out how you want to test this in advance.</li>
+</ul>
+
+<h2>Checkpoint 1: 10 Points</h2>
+
+<p>Accept fraction string as input and display corresponding improper fraction.</p>
+
+<pre class="prettyprint lang-java"><code>Enter the fraction: 1_1/2
+Improper Fraction: 3/2
+Goodbye!
+</code></pre>
+
+<p>Breakdown of Points:</p>
+
+<ul>
+<li>2 Points: Comments: Header, Methods, Logic</li>
+<li>1 Points: Proper formatting/Indentation</li>
+<li>3 Points: Handling Whole number, fractions, Mixed Numbers</li>
+<li>2 Points: Calculating Correct improper fraction</li>
+<li>1 Points: Correct input/output formatting</li>
+<li>1 Points: Breaking into reusable code for future checkpoints</li>
+</ul>
+
+<h2>Checkpoint 2: 20 Points</h2>
+
+<p>Parsing the fractions: displays mixed and improper fractions and operation entered. Interpret Quit command: exit on this command otherwise continue processing.</p>
+
+<pre class="prettyprint lang-java"><code>Enter an expression (or "quit"): 1/4 + 1_1/2
+Fraction 1: 1/4 = 1/4
+Operator: +
+Fraction 2: 1_1/2 = 3/2
+Enter an expression (or "quit"): quit 
+Goodbye!
+</code></pre>
+
+<p>Breakdown of Points:</p>
+
+<ul>
+<li>4 Points: Comments, formatting, Indentation, modular code o 3 Points: Handling Whole number, fractions, Mixed Numbers o 2 Points: Calculating Correct improper fraction</li>
+<li>4 Points: Correct Parsing of Equation String</li>
+<li>2 Points: Handling Quit</li>
+<li>3 Points: Correct loop implementation</li>
+<li>2 Points: Correct input/output formatting</li>
+</ul>
+
+<h2>Checkpoint 3: 20 Points</h2>
+
+<p>Do one operation (+) fully functional including improper, mixed fractions.
+Welcome to the Fraction Calculator!</p>
+
+<pre class="prettyprint lang-java"><code>Enter an expression (or "quit"): 1_1/2 + 1/4
+1_3/4
+Enter an expression (or "quit"): 8/4 + 2
+4
+Enter an expression (or "quit"): quit
+Goodbye!
+</code></pre>
+
+<p>Breakdown of Points:</p>
+
+<ul>
+<li>3 Points: Comments, formatting, Indentation, modular code</li>
+<li>2 Points: Handling Whole number, fractions, Mixed Numbers</li>
+<li>3 Points: Correct loop implementation, Quit</li>
+<li>2 Points: Correct Parsing of Equation String</li>
+<li>2 Points: Calculating Correct improper fraction</li>
+<li>3 Points: Correct Addition implementation</li>
+<li>3 Points: Correct Result calculation in reduced format</li>
+<li>2 Points: Correct input/output formatting</li>
+</ul>
+
+<h2>Final Submission: 50 Points</h2>
+
+<p>Everything should work as described in section 2.</p>
+
+<p>Breakdown of Points:</p>
+
+<ul>
+<li>5 Points: Comments, formatting, Indentation, modular code</li>
+<li>5 Points: Handling Whole number, fractions, Mixed Numbers</li>
+<li>4 Points: Correct loop implementation, Quit</li>
+<li>5 Points: Correct Parsing of Equation String</li>
+<li>10 Points: All operations implementation</li>
+<li>5 Points: Calculating Correct improper fraction</li>
+<li>10 Points: Correct Result calculation in reduced format</li>
+<li>5 Points: Correct input/output formatting</li>
+<li>6 Points: Handling corner cases (divide by 0, wrong fractions etc)</li>
+</ul>
+
+<h2>Extra Credit:</h2>
+
+<ul>
+<li>5 points: calculators that can handle more than one operation (e.g. 1 + 1 + 1 - 1/2)</li>
+<li>5 points: correctly handling the order of operations with more than two inputs (e.g. 1 - 2 * 4 returning -7 instead of -4)</li>
+<li>5 points: handling bad input gracefully (e.g. 1 + + 1/2 does not cause the program to crash)</li>
+<li>10 points: an infinite precision calculator. This means your calculator can handle very large numbers and still produce the right results. You may look at Java BigInteger class. This involves a lot of extra work, so consider it carefully or do it only after you have finished the required parts.</li>
+</ul>
+
+<p>Additional extra credit for other advanced behavior based on complexity and completeness. Maximum extra credit available 30 points.</p>

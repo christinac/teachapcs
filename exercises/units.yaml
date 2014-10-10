@@ -458,6 +458,22 @@
           - key: _return
           - key: function
       extra:
+    - title: Fractional Calculator
+      label: student
+      author: 
+      - name: Leo Franchi
+        url: https://twitter.com/lfranchi
+      tags:
+          - key: string manipulation
+          - key: user input
+      blockuse:
+          - key: 
+      objective:
+          - text: 
+      tools:
+          - key: _return
+          - key: "-"
+          - key: "+"
     - title: Bunnies
       label: student
       solved: "awr1ZPwpCoU?list=PLX7CEu120-9McrHj5gAb9jxFV015AV5mg&index=1"
