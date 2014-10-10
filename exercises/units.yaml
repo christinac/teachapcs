@@ -235,64 +235,6 @@
           - key: print
           - key: "+"
       extra:
-    - title: "Array exercises"
-      label: student
-      author: 
-      - name: Charlie Lunetta
-        url: https://www.tracy.k12.ca.us/sites/clunetta/index.htm
-      tags:
-          - key: basic math
-          - key: arrays
-      blockuse:
-          - key: structs-arrays
-          - key: structs-arrays-constructing
-      objective:
-          - text:
-      tools:
-          - key: array-int
-          - key: math-pow
-          - key: '+'
-          - key: '-'
-      extra:
-    - title: "Array fun"
-      label: student
-      author: 
-      - name: Javaclass.info
-        url: http://www.javaclass.info/
-      tags:
-          - key: basic math
-          - key: arrays
-      blockuse:
-          - key: structs-arrays
-          - key: structs-arrays-constructing
-      objective:
-          - text:
-      tools:
-          - key: array-int
-          - key: array-double
-          - key: '+'
-          - key: '-'
-      extra:
-    - title: "Array fun with strings"
-      parent: "array-fun"
-      label: student
-      author: 
-      - name: Javaclass.info
-        url: http://www.javaclass.info/
-      tags:
-          - key: basic math
-          - key: arrays
-          - key: strings
-      blockuse:
-          - key: structs-arrays
-          - key: structs-arrays-constructing
-      objective:
-          - text:
-      tools:
-          - key: array-string
-          - key: string
-          - key: '+'
-      extra:
     - title: "FizzBuzz"
       label: student
       solved: "cHgaKc7rMQw?list=PLX7CEu120-9McrHj5gAb9jxFV015AV5mg&index=2"
@@ -374,6 +316,83 @@
             url:
             source:
 
+- title: Entering and manipulating data structures
+  text: "Students will be able to create, manipulate, and store data inside arrays. They'll also gain confidence in tracing through those arrays."
+  order: 1.25
+  exercise:
+    - title: "Array exercises"
+      label: student
+      author: 
+      - name: Charlie Lunetta
+        url: https://www.tracy.k12.ca.us/sites/clunetta/index.htm
+      tags:
+          - key: basic math
+          - key: arrays
+      blockuse:
+          - key: structs-arrays
+          - key: structs-arrays-constructing
+      objective:
+          - text:
+      tools:
+          - key: array-int
+          - key: math-pow
+          - key: '+'
+          - key: '-'
+      extra:
+    - title: "Array fun"
+      label: student
+      author: 
+      - name: Javaclass.info
+        url: http://www.javaclass.info/
+      tags:
+          - key: basic math
+          - key: arrays
+      blockuse:
+          - key: structs-arrays
+          - key: structs-arrays-constructing
+      objective:
+          - text:
+      tools:
+          - key: array-int
+          - key: array-double
+          - key: '+'
+          - key: '-'
+      extra:
+    - title: "Array fun with strings"
+      parent: "array-fun"
+      label: student
+      author: 
+      - name: Javaclass.info
+        url: http://www.javaclass.info/
+      tags:
+          - key: basic math
+          - key: arrays
+          - key: strings
+      blockuse:
+          - key: structs-arrays
+          - key: structs-arrays-constructing
+      objective:
+          - text:
+      tools:
+          - key: array-string
+          - key: string
+          - key: '+'
+      extra:
+    - title: "Array practice"
+      label: student
+      author: 
+      - name: Leo Franchi
+        url: https://twitter.com/lfranchi
+      tags:
+          - key: numbers
+          - key: loops
+          - key: arrays
+      blockuse:
+          - key: 
+      objective:
+          - text: 
+      tools:
+          - key: 
 - title: Writing functions
   text: "Students will be able to write functions/methods, and they'll gain confidence in tracing through control flow across multiple functions."
   order: 1.5
