@@ -1,0 +1,1 @@
+<table class="table"><tbody><tr><td><strong>Character</strong></td><td>M</td><td>y</td><td> </td><td>p</td><td>h</td><td>o</td><td>n</td><td>e</td></tr><tr><td><strong>Index</strong></td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr></tbody></table>

@@ -1,0 +1,1 @@
+"Hello".replace("ll", "mm")	//"Hemmo"

@@ -1,0 +1,1 @@
+"Measure me".length();	//10

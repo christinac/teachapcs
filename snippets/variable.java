@@ -1,0 +1,1 @@
+<code>x</code> is the variable in <code>int x = 2;</code> <code>2</code> is the value.

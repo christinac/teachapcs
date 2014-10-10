@@ -1,0 +1,1 @@
+Math.sqrt(16);   // returns 4

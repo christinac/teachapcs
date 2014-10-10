@@ -1,0 +1,1 @@
+String statement = readString("What do you think?");
