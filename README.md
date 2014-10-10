@@ -9,6 +9,7 @@ Tools, links, exercises, and reference materials from [TeachAPCS](http://teachap
 - `/exercises` collects files for the [Popular Exercises](http://teachapcs.com/exercises) series. Inside, you'll find html and md versions of all text, java starter files, and the yaml-powered glue to consolidate them.
 - `/reference` is the [Microtext](http://teachapcs.com/microtext)
 - `/resources` catalogs external resources – links, videos, or textbook snippets – that could supplement other material. These power the [Video Microlectures](http://teachapcs.com/microlectures) and the "other resources" section of the [Microtext](http://teachapcs.com/microtext)
+- `/snippets` keeps track of the [Common Code Snippets](http://teachapcs.com/snippets) – example code that some teachers use to introduce new concepts.
 
 ## Contributing
 Please do! Ideally by [pull request](https://help.github.com/articles/creating-a-pull-request) or [mailing list](https://groups.google.com/forum/#!forum/teachapcs) email.
