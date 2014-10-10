@@ -1,4 +1,5 @@
-<pre><code>String s = "First line!\nSecond line!"
+String s = "First line!\nSecond line!"
 System.out.println(s);
+
 First line!
-Second line!</code></pre>
+Second line!

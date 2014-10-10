@@ -3,7 +3,7 @@ class Book{
     String author;
 
     Book(){
-        title = "Alice in Wonderland";
-        author = "Lewis Carroll";
+        this.title = "Alice in Wonderland";
+        this.author = "Lewis Carroll";
     }
 }

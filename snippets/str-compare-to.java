@@ -1,19 +1,20 @@
-String mTitle = "Jessica";
-String mLower = "jessica";
-String sTitle = "Stephanie";
-String cTitle = "Amy";
-
-mTitle.compareTo(mTitle);
+"Jessica".compareTo("Jessica");
 0
-mTitle.compareTo(mLower);
+
+"Jessica".compareTo("jessica");
 -32
-mLower.compareTo(mTitle);
+
+"jessica".compareTo("Jessica");
 32
-cTitle.compareTo(mTitle);
+
+"Amy".compareTo("Jessica");
 -9
-cTitle.compareTo(mLower);
+
+"Amy".compareTo("jessica");
 -41
-sTitle.compareTo(mTitle);
+
+"Stephanie".compareTo("Jessica");
 9
-sTitle.compareTo(mLower);
+
+"Stephanie".compareTo("jessica");
 -23

@@ -1,1 +1,2 @@
-"Measure me".length();	//10
+"Measure me".length();	// 10
+"Hello".lenght();       // 5

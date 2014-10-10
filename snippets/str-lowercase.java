@@ -1,1 +1,2 @@
-"Hello".toLowerCase();	//"hello"
+"HI THERE".toLowerCase();           // "hi there"
+"Hello".toLowerCase();              // "hello"

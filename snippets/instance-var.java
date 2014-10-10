@@ -1,9 +1,9 @@
 class Book{
-<span style="color:blue;">  String title;
-    String author;</span>
+    String title;
+    String author;
 
-    Book(){
-        title = "Alice in Wonderland";
-        author = "Lewis Carroll";
+    Book(String titleFromUser, String authorFromUser){
+        this.title = titleFromUser;
+        this.author = authorFromUser;
     }
 }

@@ -1,4 +1,6 @@
 ArrayList<String> ourList = new ArrayList<String>();
-ourList.isEmpty();	//Returns true
+ourList.isEmpty();              // returns true
 ourList.add("Hello");
-ourList.isEmpty();	//Returns false
+ourList.isEmpty();              // returns false
+ourList.clear();
+ourList.isEmpty();              // returns true

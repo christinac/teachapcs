@@ -1,3 +1,3 @@
-"Hello" + "there!";
-//"Hellothere!"
-"Hello" + " there!";	//"Hello there!"
+"Hello" + "there!";         // "Hellothere!"
+
+"Hello" + " there!";        // "Hello there!"

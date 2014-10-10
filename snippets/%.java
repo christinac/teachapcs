@@ -1,2 +1,11 @@
-5 % 2; // returns 2
-2 % 2;   // returns 0
+0 % 3;      // returns 0
+1 % 3;      // returns 1
+2 % 3;      // returns 2
+3 % 3;      // returns 0
+4 % 3;      // returns 1
+5 % 3;      // returns 2
+6 % 3;      // returns 0
+7 % 3;      // returns 1
+8 % 3;      // returns 2
+9 % 3;      // returns 0
+10 % 3;      // returns 1
