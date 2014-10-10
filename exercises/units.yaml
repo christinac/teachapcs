@@ -23,6 +23,29 @@
 #               url: [String / URL]
 
 --- 
+- title: Introduction to programming
+  text: "Students will be exposed to some of the powerful ideas underlying programming. They'll also have the opportunity to think creatively, reason logically, and work collaboratively."
+  order: 0.5
+  exercise:
+    - title: One-player pong
+      author: 
+      - name: Robert Jaffee
+        url: http://www.mrjaffesclass.com
+      objective:
+          - text: 
+      tools:
+          - key:
+      blockuse:
+          - key:
+      tags:
+          - key: scratch
+          - key: variables
+          - key: objects
+      label: student
+      extra:
+          - text: Scratch
+            source: Lifelong Kindergarden group at MIT
+            url: "http://scratch.mit.edu"
 - title: Entering and manipulating data
   text: "Students will be able to create, manipulate, and store data inside their programs. They'll also gain confidence in tracing through code inside a single method."
   order: 1.0
@@ -1022,6 +1045,22 @@
           - key: class
           - key: double
           - key: math-round
+    - title: Land mine
+      author: 
+      - name: Robert Jaffee
+        url: http://www.mrjaffesclass.com
+      objective:
+          - text: 
+      tools:
+          - key:
+      blockuse:
+          - key:
+      tags:
+          - key: MVC
+          - key: messaging
+          - key: objects
+      label: student
+      extra:
     - title: The Watchmaker
       label: sketch
       author: 
@@ -1057,7 +1096,7 @@
       tools:
           - key: constructor
           - key: class
-- title: Extending your own code
+- title: Extending code
   text: "Students will be able to design, implement, and write code to a specification so that someone else can adopt what has been written to his or her ends."
   order: 6.0
   exercise: 
