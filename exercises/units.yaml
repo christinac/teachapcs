@@ -427,6 +427,22 @@
           - text:
             url:
             source:
+    - title: "Rock, Paper, Scissors"
+      label: student
+      author: 
+      - name: Leo Franchi
+        url: https://twitter.com/lfranchi
+      tags:
+          - key: random numbers
+          - key: strings
+          - key: user input
+      blockuse:
+          - key: 
+      objective:
+          - text: 
+      tools:
+          - key: _return
+          - key: "string"
     - title: Compact data
       label: student
       author: 
