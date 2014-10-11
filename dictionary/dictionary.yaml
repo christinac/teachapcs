@@ -488,7 +488,7 @@
   word: ++n
   display: "Prefix incrementor"
   definition: "An increment operator applied before the variable, or in prefix notation. This increments the variable (in this case, n) before we use it for other operations."
-  example: "<pre><code>int x = 1; </br>int y = ++x;</br>y;</br>2</br>x;</br>2</br></code></pre><p>Notice how the y variable takes on the already-incremented value of x? If we'd instead written x++, we'd end with y = 1 and x = 2.</p>"
+  example: "int x = 1; </br>int y = ++x;</br>y;</br>2</br>x;</br>2</br></br>Notice how the y variable takes on the already-incremented value of x? If we'd instead written x++, we'd end with y = 1 and x = 2."
   external:
   related:
     - word: <code>++</code>
@@ -770,7 +770,7 @@
 - 
   word: "primitive"
   definition: 'A basic data type, provided by Java, as a "building block" to make more complicated objects.'
-  example: "<pre><code>int i<br />double d<br />boolean b</code></pre>"
+  example: "int i<br />double d<br />boolean b"
   external:
     - text: "A primitive data type is either a basic data type, provided by the programming language or a built-in data type, for which the language provides built-in support. A basic data type can be built-in to a language."
       source: Wikipedia
@@ -809,7 +809,7 @@
 - 
   word: "StringIndexOutOfBoundsException"
   definition: "An exception (error) that happens when Java tries to access an index that doesn't exist in a String. Often this happens when the index is negative or greater than the string's length."
-  example: '<pre><code>String s = "hello";<br />s.charAt(494); // results in a StringIndexOutOfBoundsException</code></pre>'
+  example: 'String s = "hello";<br />s.charAt(494); // results in a StringIndexOutOfBoundsException'
   external:
     - text: "Official documentation for the StringIndexOutOfBoundsException"
       source: Java Documentation
@@ -883,9 +883,9 @@
       reason: "The term we use for any sort of crypotgraphic substitution."
 
 - 
-  word: "Numerator"
+  word: "numerator"
   definition: "The number above the line (or before the slash) in a fraction"
-  example: "The <code>1</code> in <code>1/4</code>"
+  example: "The 1 in 1/4"
   external:
     - text: "Fractions in math"
       source: Wikipedia
@@ -898,9 +898,9 @@
       reason: "The other (bottom) part of a fraction."
 
 - 
-  word: "Denominator"
+  word: "denominator"
   definition: "The number below the line (or after the slash) in a fraction"
-  example: "The <code>4</code> in <code>1/4</code>"
+  example: "The 4 in 1/4"
   external:
     - text: "Fractions in math"
       source: Wikipedia
@@ -913,7 +913,7 @@
       reason: "The other (top) part of a fraction."
 
 - 
-  word: "Pseudo-random"
+  word: "pseudo-random"
   definition: "Sometimes when we're programming, we want to use random numbers. But computers are so deterministic that they can't come up with truely random numbers, so &ldqo;pseudo-random&rdquo; is what we call numbers that <em>seem</em> random, since they lack a pattern. They're not actually random though – computer wouldn't know how to do that."
   example: "30, 45, 47, 97, 17, 2, 26, 56, 51, 5"
   external:
@@ -928,7 +928,7 @@
       reason: "The name of the Java class that generates random numbers"
 
 - 
-  word: "Random"
+  word: "random"
   definition: "The word 'random' means chosen without method or concious decision. Java has a built-in <code>Random</code> class that'll give you random numbers."
   example: "Random dice = new Random();<br/>int roll = dice.nextInt(6) + 1;<br/>// roll is a whole number between 1 and 6, inclusive."
   external:
