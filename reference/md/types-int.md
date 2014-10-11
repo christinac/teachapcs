@@ -1,5 +1,5 @@
 #ints
-`int`s are whole numbers, or integers, in Java, like like `2`, `-39`, or `19391`. 
+`int`s are whole numbers, or integers, in Java, like `2`, `-39`, or `19391`. 
 
 Assigning an int to a variable works like this: 
 
