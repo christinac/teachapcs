@@ -29,7 +29,7 @@
   exercise:
     - title: One-player pong
       author: 
-      - name: Robert Jaffee
+      - name: Robert Jaffe
         url: http://www.mrjaffesclass.com
       objective:
           - text: 
@@ -1098,7 +1098,7 @@
           - key: math-round
     - title: Land mine
       author: 
-      - name: Robert Jaffee
+      - name: Robert Jaffe
         url: http://www.mrjaffesclass.com
       objective:
           - text: 
