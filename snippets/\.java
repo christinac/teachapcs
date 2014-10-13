@@ -1,5 +1,0 @@
-"\\Hi"	//"\Hi"
-"\nHi!"	//"
-Hi!"
-"\tHi"	//"	Hi"
-"I \"love\" NYC"	//"I "love" NYC"

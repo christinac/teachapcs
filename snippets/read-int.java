@@ -1,1 +1,0 @@
-int fav = readInt("What is your favorite number?");
