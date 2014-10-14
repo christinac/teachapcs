@@ -303,6 +303,9 @@
       - text: while and do-while statements
         source: Oracle's Java Documentation
         url: http://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
+      - text: Java Programming Tutorial - 13 - While Loop
+        source: New Boston
+        url: "https://www.youtube.com/watch?v=8ZuWD2CBjgs"
       - text: while and do-while loops
         source: Learn Java
         url: "https://sites.google.com/site/learnjav/java/while-and-do-while"
@@ -374,6 +377,9 @@
       - text: Java arrays and loops
         source: CodingBat
         url: http://codingbat.com/doc/java-array-loops.html
+      - text: Intro to Arrays
+        source: NewBoston
+        url: "https://www.youtube.com/watch?v=L06uGnF4IpY"
       - text: isEverywhere exercise
         source: CodingBat
         url: http://codingbat.com/prob/p110222
