@@ -1,6 +1,6 @@
 #Printing
 
-When programming, it is usefull to print information to the terminal screen/console output window. For example, if you have a program that takes an integer dollarAmount as input, and it returns the amount with sales tax / meals tax, the program would print out the final amount to the screen. Here is a basic example of printing to the screen: 
+When programming, it is useful to print information to the terminal screen/console output window. For example, if you have a program that takes an integer dollarAmount as input, and it returns the amount with sales tax / meals tax, the program would print out the final amount to the screen. Here is a basic example of printing to the screen: 
   
   System.out.println("Hello World!"); //prints Hello World!
 
