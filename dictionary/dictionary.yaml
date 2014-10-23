@@ -1794,6 +1794,24 @@
    - word: "A fixed size group of digits that are used as a unit by a particular computer architecture."
      reason: "A byte is an example of a word."
 
+-
+  word: "parameter"
+  display: "parameter"
+  definition: "A variable that is used to refer to data passed in as an argument to a function or method."
+  succinct:
+        - text: "Variable that refers to the data passed into a method."
+          example: "public int double(int x)<br/>{<br/>    // the parameter x refers to the data that is passed to the method<br/>    return 2 * x;<br/>}"
+  example: "public int double(int x)<br/>{<br/>    // the parameter x refers to the data that is passed to the method<br/>    return 2 * x;<br/>}"
+  external:
+    - text: "Parameters in Computer Programming"
+      source: "Wikipedia"
+      url: "http://en.wikipedia.org/wiki/Parameter_(computer_programming)"
+    - text: "Parameters in Java"
+      source: "University of Toronto, CSC 148: Introduction to Computer Science"
+      url: "http://www.cs.utoronto.ca/~dianeh/tutorials/params/" 
+  related: 
+    - word: "argument"
+      reason: "Arguments and parameters are closely related. A parameter refers to the data passed in as it is used in the method; an argument is the data that is actually being passed to the method."
 
 #    - 
 #      word: "//"
