@@ -28,6 +28,7 @@ A (partial) list of words the (many) Java words the dictionary lacks. If you're 
 
 - +=
 - access-control
+- argument
 - cast
 - compiler-error
 - constant
@@ -39,7 +40,6 @@ A (partial) list of words the (many) Java words the dictionary lacks. If you're 
 - new
 - overload
 - override
-- parameter
 - references
 - runtime-error
 - runtime-exception
