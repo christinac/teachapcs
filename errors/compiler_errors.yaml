@@ -67,3 +67,8 @@
   reference:
     - url: '/microtext#procedures-conditional-ifelse'
       title: 'If-else statements'
+- error: "incompatible types missing return value"
+  explanation: "The function isn't returning what it said it would. (Take a look at the method signature to see what it's expecting.)"
+  reference:
+    - url: '/microtext#procedures-signature-intro'
+      title: 'Method signature'
